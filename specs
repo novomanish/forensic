@@ -1,0 +1,23 @@
+
+Page 1:
+Primary Menu (Module) - first page, by clicking menu button
+    Machines
+    IoC
+
+List Machines + details
+    Machine Name :: systemInfo_<machineName>
+    OS
+    Other
+
+
+Page 2
+Primary Menu
+Header: Machine List items
+Tabs
+    Machine Summary:: taskList_detail_info_<machineName>_<userName>
+    Process List:: processlist_<>
+    Network Connections:: netstat
+    Services:: services
+    Registry Information:: __
+    Software List:: softwarelist (to be prepared)
+
