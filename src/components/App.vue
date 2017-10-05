@@ -3,7 +3,7 @@
     <table width="100%">
       <tbody valign="top">
         <tr>
-          <td width="30%">
+          <td class="side">
             <SideMenu></SideMenu>
           </td>
           <td>
@@ -45,4 +45,10 @@
 <!-- Scoped component css -->
 <!-- It only affect current component -->
 <style scoped>
+
+.side {
+  width: 200px;
+  min-height: 400px;
+  border-right: 1px solid #e6e6e6;
+}
 </style>

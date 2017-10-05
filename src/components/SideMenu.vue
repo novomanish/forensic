@@ -57,13 +57,9 @@ export default SideMenu
     }
     li {
         font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #e6e6e6;
         cursor: pointer; 
     }
-    li:last-child {
-        border: none;
-    }
-
     li.selected, li:hover {
         background-color: #e6e6e6;
     }

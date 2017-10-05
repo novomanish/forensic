@@ -1,31 +1,7 @@
 <template>
     <div>
-        <table border="1">
-            <thead>
-                <th v-for="(value, label) in machine">
-                    {{ label }}
-                </th>
-            </thead>
-            <tbody valign="top">
-                <tr>
-                    <td v-for="value in machine">
-                        {{ value }}
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <vue-tabs>
-            <v-tab title="Second tab">
-              <MachineSummary></MachineSummary>
-
-            </v-tab>
-
-            <v-tab title="Third tab">
-              Third tab content
-            </v-tab>
-        </vue-tabs>        
-    
-
+        <div slot="title">Tab Header</div>
+        Tab Content
     </div>
 </template>
 
@@ -34,10 +10,9 @@ import { mapGetters, mapActions } from 'vuex'
 import Api from './api'
 import {VueTabs, VTab} from 'vue-nav-tabs'
 import 'vue-nav-tabs/themes/vue-tabs.css'
-import MachineSummary from './MachineSummary'
 
 
-const Machine = {
+const MachineSummary = {
     data() {
         var raw = Api.get(this.$store.state.url)
         var attrs = ["Host Name", "OS Name", "OS Version", "OS Manufacturer", "OS Configuration"]
@@ -58,12 +33,11 @@ const Machine = {
     },
     components: {
         VueTabs,
-        VTab,
-        MachineSummary
+        VTab
     }
 }
 
-export default Machine
+export default MachineSummary
 </script>
 
 <style scoped>
