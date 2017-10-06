@@ -26,10 +26,10 @@
     "email": "novomanish@gmail.com"
   },
   "dependencies": {
-    "element-ui": "^1.4.6",
     "normalize.css": "^7.0.0",
     "object-assign": "^4.1.1",
     "promise-polyfill": "^6.0.2",
+    "vue-materialize-datatable": "^0.6.9",
     "vue-nav-tabs": "^0.5.4",
     "vue-waterfall": "^1.0.6",
     "vuex": "^2.4.1"
