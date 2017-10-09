@@ -9,7 +9,7 @@ import Services from './Services.vue'
 import SoftwareList from './SoftwareList.vue'
 
 export default [
-  {path: '*', redirect: '/machine'},
+  {path: '*', redirect: 'machine'},
   {
     name:'machine',
     path: '/machine',

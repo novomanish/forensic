@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-link to="{name:'machine'}" tag="div" class="demo-title">
+    <router-link :to="{name:'machine'}" tag="div" class="demo-title">
       <img src="/logo.jpg" width="130px"/><br />
       Forensic Demo
     </router-link>
