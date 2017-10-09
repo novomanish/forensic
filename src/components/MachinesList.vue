@@ -1,61 +1,79 @@
 <template>
-    <div>
-        <table>
-            <thead>
-                <th v-for="(value, key) in machines[0]">
-                    {{ key }}
-                </th>
-            </thead>
-            <tbody valign="top">
-                <tr v-for="machine in machines"
-                 @click="go('/machine/'+machine['Host Name'])">
-                    <td v-for="value in machine">
-                        <div class="content">{{ value }}</div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+  <div>
+
+    <datatable
+      :rows="machines"
+      :columns="columns"
+      :perPage="50"
+      :title="'Machines'"
+      v-on:row-click="handleClick"
+    ></datatable>
+  </div>
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
-import Api from './api'
+  import { mapGetters, mapActions } from 'vuex'
+  import Api from './api'
+  import DataTable from 'vue-materialize-datatable'
 
-const MachinesList = {
+  const MachinesList = {
     data() {
+      const machines = Api.get(this.$store.state.route.path);
+      const columns = [
+        "Host Name",
+        "Threat Score",
+        "OS Name",
+        "OS Version",
+        "IP Address",
+        "User Name",
+        "Time Zone",
+        "Domain"
+      ].map(c => {
         return {
-            machines: Api.get(this.$store.state.url)
+          "label": c,
+          "field":c,
+          "html": (c === "Threat Score")
         }
+      })
+
+      machines.forEach(machine => {
+        const score = machine["Threat Score"];
+
+        machine["Threat Score"] = '<div style="width: 60px; background-color: #ddd; height: 5px; border-radius: 10px">'+
+          `<div style="width:${score*60}px; background-color: orange; height: 5px; border-radius: 10px 0 0 10px"></div>`+
+          '</div>'
+
+      })
+
+      return {
+        machines,
+        columns
+      }
     },
 
     methods: {
-        ...mapActions([
-            'go'
-        ])
-    }
-}
+      handleClick(machine) {
+        this.$router.push('/machine/'+machine['Host Name'])
+      },
+      ...mapActions([
+        'go'
+      ])
+    },
 
-export default MachinesList
+    components: {
+      "datatable": DataTable
+    }
+  }
+
+  export default MachinesList
 </script>
 
 <style scoped>
-.content {
-    height: 50px;
-    overflow: hidden;
-}
+  >>> .actions {
+    margin-left:initial !important;
+  }
 
-table {
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #ddd;
-}
-tr {
-    cursor: pointer;
-}
-tr:hover {
-    background-color: #e6e6e6;
-}
+  >>> .table-footer {
+       justify-content: flex-start !important;
+  }
 </style>

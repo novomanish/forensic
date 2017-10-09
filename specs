@@ -13,11 +13,14 @@ List Machines + details
 Page 2
 Primary Menu
 Header: Machine List items
-Tabs
+Pages
     Machine Summary:: taskList_detail_info_<machineName>_<userName>
     Process List:: processlist_<>
     Network Connections:: netstat
     Services:: services
     Registry Information:: __
     Software List:: softwarelist (to be prepared)
+
+SidePage -> machine information
+
 

@@ -1,12 +1,10 @@
 <template>
   <div>
-    <div id="people">
-      <datatable
-        :rows="summary"
-        :columns="columns"
-        :perPage="50"
-      ></datatable>
-    </div>
+    <datatable
+      :rows="list"
+      :columns="columns"
+      :perPage="50"
+    ></datatable>
   </div>
 </template>
 
@@ -15,10 +13,13 @@
   import Api from './api'
   import DataTable from 'vue-materialize-datatable'
 
-  const MachineSummary = {
+  const List = {
+    props: [
+      'url'
+    ],
     data() {
-      var summary = Api.get(`${this.$store.state.url}/summary`)
-      var columns = Object.keys(summary[0]).map(c => {
+      var list = Api.get(this.url)
+      var columns = Object.keys(list[0]).map(c => {
         return {
           "label": c,
           "field":c
@@ -26,7 +27,7 @@
       })
 
       return {
-        summary,
+        list,
         columns,
         options:{}
       }
@@ -42,10 +43,12 @@
     }
   }
 
-  export default MachineSummary
+  export default List
 </script>
 
 <style scoped>
-  @import url(http://fonts.googleapis.com/icon?family=Material+Icons);
+  >>> .actions {
+    margin-left:initial !important;
+  }
 
 </style>

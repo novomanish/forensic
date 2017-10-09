@@ -7,10 +7,7 @@
             <SideMenu></SideMenu>
           </td>
           <td>
-            
-            <MachinesList v-if="$store.state.url === '/machine'"></MachinesList>
-            
-            <Machine v-if="$store.state.url.startsWith('/machine/')"></Machine>
+            <router-view></router-view>
           </td>
         </tr>
       </tbody>
@@ -22,6 +19,8 @@
   import SideMenu from './SideMenu.vue'
   import MachinesList from './MachinesList.vue'
   import Machine from './Machine.vue'
+  import VueRouter from 'vue-router'
+
 
   export default {
     name: 'app',
@@ -29,9 +28,10 @@
     components: {
       SideMenu,
       MachinesList,
-      Machine
+      Machine,
+      VueRouter
     }
-    
+
   }
 </script>
 
@@ -40,6 +40,7 @@
 
 <!-- Global CSS -->
 <style>
+  @import url(http://fonts.googleapis.com/icon?family=Material+Icons);
 </style>
 
 <!-- Scoped component css -->

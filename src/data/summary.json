@@ -1,6 +1,6 @@
 [
   {
-    "Image Name": "System Idle Process",
+    "Image Name": "This is red",
     "PID": 0,
     "Session Name": "Services",
     "Session#": 0,
@@ -8,7 +8,8 @@
     "Status": "Unknown",
     "User Name": "NT AUTHORITY\\SYSTEM",
     "CPU Time": "208:48:23",
-    "Window Title": "N/A"
+    "Window Title": "N/A",
+    "red": true
   },
   {
     "Image Name": "System",

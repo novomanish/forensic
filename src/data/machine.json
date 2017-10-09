@@ -32,6 +32,11 @@
    "Logon Server": "\\\\INBAN-DC01",
    "Hotfix(s)": "11 Hotfix(s) Installed.,[01]: KB2693643,[02]: KB3186568,[03]: KB3194623,[04]: KB3199986,[05]: KB3202790,[06]: KB4013418,[07]: KB4023834,[08]: KB4034662,[09]: KB4035631,[10]: KB4034658,[11]: KB4038782",
    "Network Card(s)": "6 NIC(s) Installed.,[01]: Intel(R) Ethernet Connection I219-V,      Connection Name: Ethernet,      Status:          Media disconnected,[02]: Intel(R) Dual Band Wireless-AC 8260,      Connection Name: Wi-Fi,      DHCP Enabled:    Yes,      DHCP Server:     192.168.0.1,      IP address(es),      [01]: 192.168.0.3,      [02]: fe80::514f:9eb9:c06d:23f0,[03]: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64,      Connection Name: Ethernet 2,      Status:          Hardware not present,[04]: VMware Virtual Ethernet Adapter for VMnet1,      Connection Name: Ethernet 3,      DHCP Enabled:    No,      IP address(es),      [01]: 192.168.31.1,      [02]: fe80::896c:e3c6:3c30:4b0d,[05]: VMware Virtual Ethernet Adapter for VMnet8,      Connection Name: Ethernet 4,      DHCP Enabled:    No,      IP address(es),      [01]: 192.168.231.1,      [02]: fe80::9cf1:381f:fb5d:6c05,[06]: Microsoft KM-TEST Loopback Adapter,      Connection Name: Npcap Loopback Adapter,      Status:          Hardware not present",
-   "Hyper-V Requirements": "VM Monitor Mode Extensions: Yes,Virtualization Enabled In Firmware: Yes,Second Level Address Translation: Yes,Data Execution Prevention Available: Yes"
+   "Hyper-V Requirements": "VM Monitor Mode Extensions: Yes,Virtualization Enabled In Firmware: Yes,Second Level Address Translation: Yes,Data Execution Prevention Available: Yes",
+
+   "IP Address": "10.0.0.1",
+   "Threat Score": 0.63,
+   "User Name": "Alexander"
+
  }
 ]

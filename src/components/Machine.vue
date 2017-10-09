@@ -1,83 +1,43 @@
 <template>
   <div>
-    <table border="1">
-      <thead>
-      <th v-for="(value, label) in machine">
-        {{ label }}
-      </th>
-      </thead>
-      <tbody valign="top">
-      <tr>
-        <td v-for="value in machine">
-          {{ value }}
-        </td>
-      </tr>
-      </tbody>
+    <table border="0" width="100%">
+    <tr>
+      <td width="200px" style="padding: 20px" align="center">
+        <img src="/system.png"/>
+      </td>
+      <td valign="top" style="padding: 10px">
+        <span class="field bold" style="">{{data['Host Name']}}</span>
+        <br/>
+        <br/>
+        <span class="field" >{{data['OS Version']}}</span>
+      </td>
+    </tr>
     </table>
-    <vue-tabs>
-      <v-tab title="Machine Summary">
-        <MachineSummary></MachineSummary>
-      </v-tab>
 
-      <v-tab title="Process List">
-        Third tab content
-      </v-tab>
+    <hr style="border-top:0; border-bottom:1px solid #ddd"/>
 
-      <v-tab title="Network Connections">
-        Third tab content
-      </v-tab>
-
-      <v-tab title="Services">
-        Third tab content
-      </v-tab>
-
-
-      <v-tab title="Registry Information">
-        Third tab content
-      </v-tab>
-
-      <v-tab title="Software List">
-        Third tab content
-      </v-tab>
-
-
-    </vue-tabs>
-
-
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-  import { mapGetters, mapActions } from 'vuex'
   import Api from './api'
-  import {VueTabs, VTab} from 'vue-nav-tabs'
-  import 'vue-nav-tabs/themes/vue-tabs.css'
-  import MachineSummary from './MachineSummary'
-
 
   const Machine = {
+    props: [
+      'machine'
+    ],
     data() {
-      var raw = Api.get(this.$store.state.url)
-      var attrs = ["Host Name", "OS Name", "OS Version", "OS Manufacturer", "OS Configuration"]
-
-      var machine = {}
-      attrs.forEach(a => machine[a] = raw[a]);
-
-
       return {
-        machine
+        data: Api.get(`/machine/${this.machine}`)
       }
     },
 
+    computed: {},
+
     methods: {
-      ...mapActions([
-        'go'
-      ])
     },
     components: {
-      VueTabs,
-      VTab,
-      MachineSummary
     }
   }
 
@@ -85,9 +45,14 @@
 </script>
 
 <style scoped>
-  .content {
-    height: 50px;
-    overflow: hidden;
+  .bold {
+    font-weight: bold;
+  }
+  .field {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px 0 0 0;
+    border-bottom: 1px solid #ccc;
   }
 
   table {
