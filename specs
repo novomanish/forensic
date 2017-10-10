@@ -2,7 +2,7 @@
 Page 1:
 Primary Menu (Module) - first page, by clicking menu button
     Machines
-    IoC
+    Evidence Lookup
 
 List Machines + details
     Machine Name :: systemInfo_<machineName>
@@ -11,16 +11,55 @@ List Machines + details
 
 
 Page 2
-Primary Menu
-Header: Machine List items
+Secondary Menu
+Header: Machine Brief + Machine detail (third view)
 Pages
-    Machine Summary:: taskList_detail_info_<machineName>_<userName>
-    Process List:: processlist_<>
-    Network Connections:: netstat
-    Services:: services
-    Registry Information:: __
-    Software List:: softwarelist (to be prepared)
+    Summary:: taskList_detail_info_<machineName>_<userName>
+      Tabs: Overview, Process List, Network Connections, Services, Software List
+    Browser Artifacts:
+      Tabs: IE, Chrome, Firefox,
+    Persistence:
+      Tabs: Startup, Programs, Registry Entries
+    Evidence of execution
+      Tag: Prefetch, app compt cache, Link Files, Jump list, Scheduled Tasks
+    Lateral Movement:
+      Tabs: RDP connection, Random MRU
 
-SidePage -> machine information
+    Registry Information:: __
+
+Page 3
+Evidence lookup
+  Tab1: IP
+  Tab2: File Hash
+  Tab3: Process Name (search processlist on caption, use CS Name to display, click goes to machine summary)
+  Tab4: Registry
+
+
+
+
+Rules:
+  Network -> click process id -> Process List (select and scroll to the process list)
+  Network -> click foriegn address -> Menu [
+                                        VT Lookup -> (extract ip only (remove port)), new window :: https://www.virustotal.com/#/ip-address/:ip
+                                        Whois Lookup -> (extract ip only (remove port)) -> https://www.whois.com/whois/:ip
+                                        ]
+  Evedices ip search -> Show machine names > clicking it takes to machine summary
+  Browser Artifacts : if no result found then show "Browsing history information unavailable"
+
+
+Columns:
+  Services: Remove Node
+  Process List: Remove Node
+  Summary: Remove Node
+  Software List: remove Node
+  Process List: Creation Date : first 8 digit
+  Process List: highlight scvhost, column # (Suspicious Warning)
+  Network: column # (Suspicious Warning)
+
+
+Features:
+  Menu Hover gives tooltip
+  SHow work in progree for upcoming features
+
 
 

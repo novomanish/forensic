@@ -4,8 +4,10 @@ import store from './components/store.js'
 import VueRouter from 'vue-router'
 import { sync } from 'vuex-router-sync'
 import routes from './components/Routes'
+import Vuetify from 'vuetify'
 
 Vue.use(VueRouter)
+Vue.use(Vuetify)
 
 const router = new VueRouter({
   mode: 'history',

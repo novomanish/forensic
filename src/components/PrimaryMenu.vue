@@ -2,9 +2,12 @@
   <div>
     <ul>
       <router-link v-for="(menu, label) in items"
+                   class="menu"
                    :key="menu.name"
                    tag="li"
-                   :to="{name:menu.name}">
+                   :to="{name:menu.name}"
+                   :style="`background-image: url(${menu.icon}) ;`"
+      >
         {{ label }}
       </router-link>
     </ul>
@@ -16,7 +19,14 @@
     data() {
       return {
         'items': {
-          "Machines": {name:"detail"}
+          "Machines": {
+            name:"machine",
+            icon: "/system.png"
+          },
+          "Evidence Lookup": {
+            name:"machine1",
+            icon: "/system1.png"
+          }
         }
       }
     }
@@ -26,19 +36,9 @@
 </script>
 
 <style scoped>
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-  }
-  li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #e6e6e6;
-    cursor: pointer;
-  }
-  li.router-link-active, li:hover {
-    background-color: #e6e6e6;
-  }
-
+.menu {
+  background-size:25px;
+  padding-left:50px;
+  background-position:10px
+}
 </style>

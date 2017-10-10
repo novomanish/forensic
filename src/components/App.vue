@@ -2,14 +2,14 @@
   <div id="app">
     <table width="100%">
       <tbody valign="top">
-        <tr>
-          <td class="side">
-            <SideMenu></SideMenu>
-          </td>
-          <td>
-            <router-view></router-view>
-          </td>
-        </tr>
+      <tr>
+        <td class="side">
+          <SideMenu></SideMenu>
+        </td>
+        <td class="">
+          <router-view></router-view>
+        </td>
+      </tr>
       </tbody>
     </table>
   </div>
@@ -20,6 +20,7 @@
   import MachinesList from './MachinesList.vue'
   import Machine from './Machine.vue'
   import VueRouter from 'vue-router'
+  import('vuetify/dist/vuetify.min.css')
 
 
   export default {
@@ -47,9 +48,9 @@
 <!-- It only affect current component -->
 <style scoped>
 
-.side {
-  width: 200px;
-  min-height: 400px;
-  border-right: 1px solid #e6e6e6;
-}
+  .side {
+    min-width: 230px;
+    min-height: 600px;
+    border-right: 1px solid #e6e6e6;
+  }
 </style>

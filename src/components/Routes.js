@@ -6,6 +6,7 @@ import Machine from './Machine.vue'
 import Summary from './Summary.vue'
 import Netstat from './Netstat.vue'
 import Services from './Services.vue'
+import ProcessList from './ProcessList.vue'
 import SoftwareList from './SoftwareList.vue'
 
 export default [
@@ -29,6 +30,7 @@ export default [
     },
     children: [
       {name: 'summary', path: '', component: Summary},
+      {name: 'processlist', path: 'processlist', component: ProcessList},
       {name: 'netstat', path: 'netstat', component: Netstat},
       {name: 'services', path: 'services', component: Services},
       {name: 'softwarelist', path: 'softwarelist', component: SoftwareList},

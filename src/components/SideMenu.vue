@@ -26,4 +26,20 @@
     font-size: 1.5em;
   }
 
+  >>> ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  >>> li {
+    width: 100%;
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #e6e6e6;
+    cursor: pointer;
+  }
+  >>> li.router-link-exact-active, li:hover {
+    background-color: #e6e6e6;
+  }
+
 </style>
