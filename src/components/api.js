@@ -41,7 +41,18 @@ const Api = {
         switch(match.browser){
           case 'ie': return clone(require('../data/ie.json').filter(machineFilter))
           case 'chrome': return clone(require('../data/chrome.json').filter(machineFilter))
-//          case 'firefox': return clone(require('../data/firefox.json').filter(machineFilter))
+        }
+      }
+    }
+
+    {
+      let match = (new UrlPattern("/machine/:machine/persistence/:type")).match(url)
+      if(match) {
+        const machineFilter = o => {return o['Hostname'] === match.machine || o['Host Name'] === match.machine}
+
+        switch(match.type){
+          case 'startup': return clone(require('../data/registry_startup.json').filter(machineFilter))
+//          case 'chrome': return clone(require('../data/chrome.json').filter(machineFilter))
         }
       }
     }

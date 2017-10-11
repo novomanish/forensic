@@ -15,6 +15,9 @@ import Ie from './Ie.vue'
 import Chrome from './Chrome.vue'
 import Firefox from './Firefox.vue'
 
+import Persistence from './Persistence.vue'
+import RegistryStartup from './RegistryStartup.vue'
+
 
 export default [
   {path: '', redirect: 'machine'},
@@ -54,6 +57,12 @@ export default [
         {name: 'ie', path: 'ie', component: Ie, props:true},
         {name: 'chrome', path: 'chrome', component: Chrome, props:true},
         {name: 'firefox', path: 'firefox', component: Firefox, props:true},
+      ]},
+      {path: 'persistence', component: Persistence, props:true, children: [
+        {path: '', redirect: 'startup'},
+        {name: 'startup', path: 'startup', component: RegistryStartup, props:true},
+        /*        {name: 'chrome', path: 'chrome', component: Chrome, props:true},
+        {name: 'firefox', path: 'firefox', component: Firefox, props:true},*/
       ]},
     ]
   }

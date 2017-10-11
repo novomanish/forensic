@@ -20,7 +20,7 @@
         'items': [
           {title: 'Summary', to: {name: 'overview'}, icon: 'accessibility'},
           {title: 'Browser Artifacts', to: {name: 'ie'}, icon: 'public'},
-          {title: 'Persistence', to: {name: 'wip'}, icon: "history"},
+          {title: 'Persistence', to: {name: 'startup'}, icon: "history"},
           {title: 'Evidence of Execution', to: {name: 'wip'}, icon: 'group'},
           {title: 'Lateral Movement', to: {name: 'wip'}, icon: 'beach_access'},
           {title: 'Gather Evidence', to: {name: 'wip'}, icon: 'free_breakfast'}
