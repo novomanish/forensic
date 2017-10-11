@@ -29,7 +29,7 @@
           <td><router-link :to="{name:'processlist', query:{ProcessId: props.item['PID']}}"> {{ props.item['PID']}}</router-link></td>
           <td>{{ props.item['Session#']}}</td>
           <td>{{ props.item['Session Name']}}</td>
-          <td>{{ getDate(props.item['Mem Usage'])}}</td>
+          <td>{{ props.item['Mem Usage']}}</td>
           <td>{{ props.item['User Name']}}</td>
           <td>{{ props.item['CPU Time']}}</td>
           <td>{{ props.item['Window Title']}}</td>
@@ -78,9 +78,6 @@
     },
 
     methods: {
-      getDate(d){
-        return d.substr(0, 8);
-      }
     },
     components: {
     }

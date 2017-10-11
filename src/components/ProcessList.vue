@@ -22,7 +22,7 @@
       <template slot="items" scope="props">
         <tr :active="props.selected">
           <td>{{ props.item['ProcessId']}}</td>
-          <td>{{ props.item['ParentProcessId']}}</td>
+          <td><router-link :to="{name:'processlist', query:{ProcessId:props.item['ParentProcessId']}}"> {{ props.item['ParentProcessId']}}</router-link></td>
           <td>{{ props.item['ExecutablePath']}}</td>
           <td>{{ getDate(props.item['CreationDate'])}}</td>
           <td>{{ props.item['Caption']}}</td>

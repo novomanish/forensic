@@ -1,158 +1,200 @@
 Hostname,Image Name,PID,Session Name,Session#,Mem Usage,Status,User Name,CPU Time,Window Title
-INBANL-PC0EX5K3,System Idle Process,0,Services,0,4 K,Unknown,NT AUTHORITY\SYSTEM,208:48:23,N/A
-INBANL-PC0EX5K3,System,4,Services,0,"8,488 K",Unknown,N/A,1:53:19,N/A
-INBANL-PC0EX5K3,smss.exe,416,Services,0,528 K,Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,csrss.exe,580,Services,0,"4,028 K",Unknown,NT AUTHORITY\SYSTEM,0:01:37,N/A
-INBANL-PC0EX5K3,wininit.exe,688,Services,0,"3,180 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,services.exe,760,Services,0,"9,552 K",Unknown,NT AUTHORITY\SYSTEM,0:33:15,N/A
-INBANL-PC0EX5K3,lsass.exe,768,Services,0,"17,020 K",Unknown,NT AUTHORITY\SYSTEM,0:01:13,N/A
-INBANL-PC0EX5K3,svchost.exe,868,Services,0,"18,472 K",Unknown,NT AUTHORITY\SYSTEM,0:02:29,N/A
-INBANL-PC0EX5K3,svchost.exe,932,Services,0,"10,160 K",Unknown,NT AUTHORITY\NETWORK SERVICE,0:01:14,N/A
-INBANL-PC0EX5K3,svchost.exe,832,Services,0,"112,980 K",Unknown,NT AUTHORITY\SYSTEM,0:12:39,N/A
-INBANL-PC0EX5K3,svchost.exe,548,Services,0,"147,888 K",Unknown,NT AUTHORITY\SYSTEM,0:32:27,N/A
-INBANL-PC0EX5K3,svchost.exe,824,Services,0,"22,044 K",Unknown,NT AUTHORITY\NETWORK SERVICE,0:03:41,N/A
-INBANL-PC0EX5K3,svchost.exe,1084,Services,0,"22,564 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:01:56,N/A
-INBANL-PC0EX5K3,svchost.exe,1092,Services,0,"27,224 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:39,N/A
-INBANL-PC0EX5K3,svchost.exe,1240,Services,0,"25,756 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:02:19,N/A
-INBANL-PC0EX5K3,WUDFHost.exe,1256,Services,0,"5,212 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:00,N/A
-INBANL-PC0EX5K3,ibmpmsvc.exe,1612,Services,0,"2,064 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,LPlatSvc.exe,1620,Services,0,"4,192 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
-INBANL-PC0EX5K3,igfxCUIService.exe,1920,Services,0,"5,264 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
-INBANL-PC0EX5K3,svchost.exe,1324,Services,0,"7,084 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:10,N/A
-INBANL-PC0EX5K3,svchost.exe,2240,Services,0,"6,220 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:04,N/A
-INBANL-PC0EX5K3,vpnagent.exe,2280,Services,0,"11,916 K",Unknown,NT AUTHORITY\SYSTEM,0:00:07,N/A
-INBANL-PC0EX5K3,svchost.exe,2372,Services,0,"12,796 K",Unknown,NT AUTHORITY\SYSTEM,0:00:48,N/A
-INBANL-PC0EX5K3,spoolsv.exe,2524,Services,0,"14,800 K",Unknown,NT AUTHORITY\SYSTEM,0:00:12,N/A
-INBANL-PC0EX5K3,OfficeClickToRun.exe,2640,Services,0,"35,468 K",Unknown,NT AUTHORITY\SYSTEM,0:00:15,N/A
-INBANL-PC0EX5K3,cyserver.exe,2656,Services,0,"3,076 K",Unknown,NT AUTHORITY\SYSTEM,0:07:02,N/A
-INBANL-PC0EX5K3,DolbyDAX2API.exe,2664,Services,0,"13,608 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
-INBANL-PC0EX5K3,CyveraService.exe,2676,Services,0,"46,432 K",Unknown,NT AUTHORITY\SYSTEM,0:03:30,N/A
-INBANL-PC0EX5K3,svchost.exe,2684,Services,0,"12,720 K",Unknown,NT AUTHORITY\SYSTEM,0:00:25,N/A
-INBANL-PC0EX5K3,ibtsiva.exe,2692,Services,0,"2,156 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,LMIGuardianSvc.exe,2740,Services,0,"2,304 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,NVDisplay.Container.exe,2824,Services,0,"10,484 K",Unknown,NT AUTHORITY\SYSTEM,0:30:23,N/A
-INBANL-PC0EX5K3,OcsService.exe,2832,Services,0,"4,212 K",Unknown,NT AUTHORITY\SYSTEM,0:00:44,N/A
-INBANL-PC0EX5K3,ServiceLayer.exe,2996,Services,0,"21,692 K",Unknown,NT AUTHORITY\SYSTEM,0:00:05,N/A
-INBANL-PC0EX5K3,svchost.exe,2128,Services,0,"16,768 K",Unknown,NT AUTHORITY\SYSTEM,0:00:17,N/A
-INBANL-PC0EX5K3,vmware-usbarbitrator64.exe,2304,Services,0,"3,424 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
-INBANL-PC0EX5K3,svchost.exe,2396,Services,0,"5,140 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:02,N/A
-INBANL-PC0EX5K3,MsMpEng.exe,3116,Services,0,"23,180 K",Unknown,NT AUTHORITY\SYSTEM,0:00:21,N/A
-INBANL-PC0EX5K3,vmnat.exe,3180,Services,0,"2,908 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
-INBANL-PC0EX5K3,SynTPEnhService.exe,3188,Services,0,"2,660 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,tlaservice.exe,3220,Services,0,"65,380 K",Unknown,NT AUTHORITY\SYSTEM,0:04:46,N/A
-INBANL-PC0EX5K3,vmnetdhcp.exe,3232,Services,0,"1,300 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
-INBANL-PC0EX5K3,vmware-authd.exe,3248,Services,0,"6,348 K",Unknown,NT AUTHORITY\SYSTEM,0:01:16,N/A
-INBANL-PC0EX5K3,Memory Compression,3288,Services,0,"31,760 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
-INBANL-PC0EX5K3,vf_agent.exe,3388,Services,0,"32,256 K",Unknown,NT AUTHORITY\SYSTEM,0:07:42,N/A
-INBANL-PC0EX5K3,valWbioSyncSvc.exe,3408,Services,0,"8,344 K",Unknown,NT AUTHORITY\SYSTEM,0:00:02,N/A
-INBANL-PC0EX5K3,valWBFPolicyService.exe,3420,Services,0,"1,292 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,tlaworker.exe,4004,Services,0,"2,060 K",Unknown,NT AUTHORITY\SYSTEM,0:00:02,N/A
-INBANL-PC0EX5K3,tlaworker.exe,4012,Services,0,"2,024 K",Unknown,NT AUTHORITY\SYSTEM,0:00:02,N/A
-INBANL-PC0EX5K3,svchost.exe,4024,Services,0,"4,344 K",Unknown,NT AUTHORITY\NETWORK SERVICE,0:00:07,N/A
-INBANL-PC0EX5K3,tlaworker.exe,4052,Services,0,"2,060 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
-INBANL-PC0EX5K3,tlaworker.exe,4064,Services,0,"2,044 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
-INBANL-PC0EX5K3,WmiPrvSE.exe,4144,Services,0,"33,368 K",Unknown,NT AUTHORITY\NETWORK SERVICE,0:21:56,N/A
-INBANL-PC0EX5K3,WmiPrvSE.exe,4236,Services,0,"15,196 K",Unknown,NT AUTHORITY\SYSTEM,0:00:19,N/A
-INBANL-PC0EX5K3,vmware-hostd.exe,4916,Services,0,"32,768 K",Unknown,NT AUTHORITY\SYSTEM,0:00:40,N/A
-INBANL-PC0EX5K3,MsDtsSrvr.exe,4496,Services,0,"5,908 K",Unknown,NT SERVICE\MsDtsServer120,0:00:00,N/A
-INBANL-PC0EX5K3,svchost.exe,4316,Services,0,"5,708 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:18,N/A
-INBANL-PC0EX5K3,PresentationFontCache.exe,6104,Services,0,"6,460 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:00,N/A
-INBANL-PC0EX5K3,CcmExec.exe,5540,Services,0,"64,772 K",Unknown,NT AUTHORITY\SYSTEM,0:05:45,N/A
-INBANL-PC0EX5K3,CmRcService.exe,8340,Services,0,"4,040 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
-INBANL-PC0EX5K3,WmiPrvSE.exe,8420,Services,0,"10,248 K",Unknown,NT AUTHORITY\SYSTEM,0:00:07,N/A
-INBANL-PC0EX5K3,WmiPrvSE.exe,5568,Services,0,"9,240 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:06,N/A
-INBANL-PC0EX5K3,WmiPrvSE.exe,8648,Services,0,"4,832 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:01,N/A
-INBANL-PC0EX5K3,csrss.exe,10912,Console,2,"9,512 K",Running,NT AUTHORITY\SYSTEM,0:00:29,N/A
-INBANL-PC0EX5K3,winlogon.exe,11608,Console,2,"7,940 K",Unknown,NT AUTHORITY\SYSTEM,0:00:04,N/A
-INBANL-PC0EX5K3,dwm.exe,6516,Console,2,"65,488 K",Running,Window Manager\DWM-2,0:03:41,DWM Notification Window
-INBANL-PC0EX5K3,nvxdsync.exe,2248,Console,2,"25,300 K",Running,NT AUTHORITY\SYSTEM,0:00:02,UxdService
-INBANL-PC0EX5K3,SynTPEnh.exe,7540,Console,2,"22,424 K",Running,3AMLABS\vigneshb,0:04:01,Forcepad driver tray window
-INBANL-PC0EX5K3,SensorDBSynch.exe,11464,Console,2,"3,812 K",Unknown,3AMLABS\vigneshb,0:00:00,N/A
-INBANL-PC0EX5K3,conhost.exe,2208,Console,2,"7,808 K",Unknown,3AMLABS\vigneshb,0:00:00,N/A
-INBANL-PC0EX5K3,sihost.exe,7256,Console,2,"23,972 K",Not Responding,3AMLABS\vigneshb,0:00:14,N/A
-INBANL-PC0EX5K3,svchost.exe,5320,Console,2,"21,784 K",Unknown,3AMLABS\vigneshb,0:00:01,N/A
-INBANL-PC0EX5K3,SynTPLpr.exe,11372,Console,2,"7,348 K",Running,3AMLABS\vigneshb,0:00:00,Touchpad driver helper window
-INBANL-PC0EX5K3,taskhostw.exe,8132,Console,2,"21,172 K",Running,3AMLABS\vigneshb,0:00:07,Task Host Window
-INBANL-PC0EX5K3,SynLenovoHelper.exe,7100,Console,2,"8,476 K",Running,3AMLABS\vigneshb,0:00:00,TouchPad object helper window
-INBANL-PC0EX5K3,RuntimeBroker.exe,9620,Console,2,"54,376 K",Running,3AMLABS\vigneshb,0:01:21,N/A
-INBANL-PC0EX5K3,SynTPHelper.exe,7188,Console,2,"4,860 K",Running,3AMLABS\vigneshb,0:00:00,N/A
-INBANL-PC0EX5K3,WmiPrvSE.exe,7000,Services,0,"15,936 K",Unknown,NT AUTHORITY\SYSTEM,0:00:49,N/A
-INBANL-PC0EX5K3,explorer.exe,11932,Console,2,"134,972 K",Running,3AMLABS\vigneshb,0:02:45,N/A
-INBANL-PC0EX5K3,igfxEM.exe,10428,Console,2,"13,232 K",Running,3AMLABS\vigneshb,0:00:00,The Event Manager - Status
-INBANL-PC0EX5K3,igfxHK.exe,3572,Console,2,"8,892 K",Running,3AMLABS\vigneshb,0:00:00,HotKey Listener
-INBANL-PC0EX5K3,ShellExperienceHost.exe,6100,Console,2,"112,232 K",Running,3AMLABS\vigneshb,0:00:08,New notification
-INBANL-PC0EX5K3,SettingSyncHost.exe,3708,Console,2,"4,428 K",Running,3AMLABS\vigneshb,0:00:00,N/A
-INBANL-PC0EX5K3,SCNotification.exe,5840,Console,2,"39,884 K",Running,3AMLABS\vigneshb,0:00:04,N/A
-INBANL-PC0EX5K3,MSASCuiL.exe,840,Console,2,"12,908 K",Running,3AMLABS\vigneshb,0:00:00,Windows Defender
-INBANL-PC0EX5K3,cytray.exe,10732,Console,2,"6,144 K",Running,3AMLABS\vigneshb,0:00:10,N/A
-INBANL-PC0EX5K3,vf_host.exe,1376,Console,2,"11,924 K",Running,3AMLABS\vigneshb,0:00:00,vfTrayIconNotifyWndTitle
-INBANL-PC0EX5K3,OneDrive.exe,7440,Console,2,"33,608 K",Running,3AMLABS\vigneshb,0:00:02,DDE Server Window
-INBANL-PC0EX5K3,g2mstart.exe,776,Console,2,"16,780 K",Running,3AMLABS\vigneshb,0:00:02,N/A
-INBANL-PC0EX5K3,g2mcomm.exe,8228,Console,2,"90,492 K",Running,3AMLABS\vigneshb,0:02:55,drawing
-INBANL-PC0EX5K3,g2mlauncher.exe,9972,Console,2,"34,272 K",Running,3AMLABS\vigneshb,0:00:04,N/A
-INBANL-PC0EX5K3,RAVBg64.exe,9312,Console,2,576 K,Running,3AMLABS\vigneshb,0:00:00,Realtek HD Audio Background Process for Vista
-INBANL-PC0EX5K3,RAVBg64.exe,6296,Console,2,"1,304 K",Running,3AMLABS\vigneshb,0:00:00,Realtek HD Audio Background Process for Vista
-INBANL-PC0EX5K3,RAVCpl64.exe,11248,Console,2,"1,620 K",Running,3AMLABS\vigneshb,0:00:00,Realtek HD Audio CPL for Vista
-INBANL-PC0EX5K3,slack.exe,6392,Console,2,"94,876 K",Running,3AMLABS\vigneshb,0:01:10,Slack - LogMeIn
-INBANL-PC0EX5K3,GoToMeeting Messenger.exe,10456,Console,2,"87,488 K",Running,3AMLABS\vigneshb,0:00:20,GoToMeeting Messenger
-INBANL-PC0EX5K3,ONENOTEM.EXE,2952,Console,2,"2,468 K",Running,3AMLABS\vigneshb,0:00:00,Microsoft OneNote 2016 - Windows taskbar
-INBANL-PC0EX5K3,vpnui.exe,9308,Console,2,"22,548 K",Running,3AMLABS\vigneshb,0:00:03,N/A
-INBANL-PC0EX5K3,vmware-tray.exe,5364,Console,2,"7,344 K",Running,3AMLABS\vigneshb,0:00:00,vmware-tray Main UI Window
-INBANL-PC0EX5K3,slack.exe,9248,Console,2,"52,180 K",Running,3AMLABS\vigneshb,0:00:11,N/A
-INBANL-PC0EX5K3,slack.exe,12212,Console,2,"12,292 K",Running,3AMLABS\vigneshb,0:00:00,crash service
-INBANL-PC0EX5K3,GoToMeeting Messenger.exe,12128,Console,2,"42,312 K",Running,3AMLABS\vigneshb,0:00:00,N/A
-INBANL-PC0EX5K3,slack.exe,10532,Console,2,"120,872 K",Unknown,3AMLABS\vigneshb,0:00:10,N/A
-INBANL-PC0EX5K3,GoToMeeting Messenger.exe,4204,Console,2,"106,372 K",Unknown,3AMLABS\vigneshb,0:00:06,N/A
-INBANL-PC0EX5K3,slack.exe,11684,Console,2,"265,188 K",Unknown,3AMLABS\vigneshb,0:01:20,N/A
-INBANL-PC0EX5K3,chrome.exe,9516,Console,2,"290,680 K",Running,3AMLABS\vigneshb,0:10:20,https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&cad=rja&uact=8&ved=0ahUKEwiIvLydpMDWAhXKQo8KHdXDDSQQFgg6MAQ&url=https%3A%2F%2Fs3.amazonaws.com%2Fxipy-examples%2Fxively_pub.py&usg=AFQjCNELGGcWtYML_7mM_VGEhQDgY_N64Q - Google Chrome
-INBANL-PC0EX5K3,chrome.exe,3164,Console,2,"9,652 K",Running,3AMLABS\vigneshb,0:00:00,N/A
-INBANL-PC0EX5K3,chrome.exe,11236,Console,2,"10,032 K",Running,3AMLABS\vigneshb,0:00:00,N/A
-INBANL-PC0EX5K3,chrome.exe,6148,Console,2,"161,788 K",Running,3AMLABS\vigneshb,0:02:18,N/A
-INBANL-PC0EX5K3,chrome.exe,11284,Console,2,"146,748 K",Unknown,3AMLABS\vigneshb,0:00:45,N/A
-INBANL-PC0EX5K3,chrome.exe,6644,Console,2,"109,440 K",Unknown,3AMLABS\vigneshb,0:00:31,N/A
-INBANL-PC0EX5K3,chrome.exe,5636,Console,2,"83,404 K",Unknown,3AMLABS\vigneshb,0:00:18,N/A
-INBANL-PC0EX5K3,chrome.exe,7992,Console,2,"64,204 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
-INBANL-PC0EX5K3,chrome.exe,6768,Console,2,"71,476 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
-INBANL-PC0EX5K3,chrome.exe,10976,Console,2,"70,820 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
-INBANL-PC0EX5K3,chrome.exe,7268,Console,2,"91,340 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
-INBANL-PC0EX5K3,chrome.exe,11816,Console,2,"45,172 K",Unknown,3AMLABS\vigneshb,0:00:01,N/A
-INBANL-PC0EX5K3,chrome.exe,2484,Console,2,"69,880 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
-INBANL-PC0EX5K3,chrome.exe,9924,Console,2,"90,712 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
-INBANL-PC0EX5K3,chrome.exe,10664,Console,2,"32,264 K",Unknown,3AMLABS\vigneshb,0:00:01,N/A
-INBANL-PC0EX5K3,ApplicationFrameHost.exe,2752,Console,2,"24,520 K",Running,3AMLABS\vigneshb,0:00:02,Photos
-INBANL-PC0EX5K3,dllhost.exe,5412,Console,2,"10,656 K",Running,3AMLABS\vigneshb,0:00:07,OleMainThreadWndName
-INBANL-PC0EX5K3,Microsoft.Photos.exe,2940,Console,2,"100,860 K",Running,3AMLABS\vigneshb,0:00:05,Photos
-INBANL-PC0EX5K3,chrome.exe,8732,Console,2,"137,996 K",Unknown,3AMLABS\vigneshb,0:02:08,N/A
-INBANL-PC0EX5K3,chrome.exe,9608,Console,2,"77,476 K",Unknown,3AMLABS\vigneshb,0:00:08,N/A
-INBANL-PC0EX5K3,Microsoft.StickyNotes.exe,9124,Console,2,"67,872 K",Running,3AMLABS\vigneshb,0:00:03,Sticky Notes
-INBANL-PC0EX5K3,SearchUI.exe,9040,Console,2,"95,288 K",Running,3AMLABS\vigneshb,0:00:04,Cortana
-INBANL-PC0EX5K3,chrome.exe,5856,Console,2,"65,184 K",Unknown,3AMLABS\vigneshb,0:00:06,N/A
-INBANL-PC0EX5K3,chrome.exe,4264,Console,2,"75,036 K",Unknown,3AMLABS\vigneshb,0:00:08,N/A
-INBANL-PC0EX5K3,chrome.exe,7860,Console,2,"75,680 K",Unknown,3AMLABS\vigneshb,0:00:03,N/A
-INBANL-PC0EX5K3,chrome.exe,1524,Console,2,"74,712 K",Unknown,3AMLABS\vigneshb,0:00:08,N/A
-INBANL-PC0EX5K3,chrome.exe,6576,Console,2,"73,592 K",Unknown,3AMLABS\vigneshb,0:00:03,N/A
-INBANL-PC0EX5K3,chrome.exe,6188,Console,2,"46,928 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
-INBANL-PC0EX5K3,chrome.exe,1656,Console,2,"70,380 K",Unknown,3AMLABS\vigneshb,0:00:04,N/A
-INBANL-PC0EX5K3,notepad++.exe,11860,Console,2,"23,248 K",Running,3AMLABS\vigneshb,0:00:07,C:\Users\vigneshb\Desktop\Evidence_logs.bat - Notepad++
-INBANL-PC0EX5K3,SystemSettingsBroker.exe,11748,Console,2,"13,180 K",Unknown,3AMLABS\vigneshb,0:00:00,N/A
-INBANL-PC0EX5K3,SearchIndexer.exe,7368,Services,0,"45,152 K",Unknown,NT AUTHORITY\SYSTEM,0:00:12,N/A
-INBANL-PC0EX5K3,armsvc.exe,10980,Services,0,"7,360 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,chrome.exe,7284,Console,2,"86,976 K",Unknown,3AMLABS\vigneshb,0:00:07,N/A
-INBANL-PC0EX5K3,audiodg.exe,2416,Services,0,"23,948 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:01:21,N/A
-INBANL-PC0EX5K3,chrome.exe,9240,Console,2,"82,000 K",Unknown,3AMLABS\vigneshb,0:00:32,N/A
-INBANL-PC0EX5K3,chrome.exe,6812,Console,2,"48,040 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
-INBANL-PC0EX5K3,LPlatSvc.exe,10904,Console,2,"7,128 K",Running,3AMLABS\vigneshb,0:00:00,LPlatSvc
-INBANL-PC0EX5K3,backgroundTaskHost.exe,8836,Console,2,"13,488 K",Unknown,3AMLABS\vigneshb,0:00:00,N/A
-INBANL-PC0EX5K3,g2mui.exe,10948,Console,2,"66,848 K",Running,3AMLABS\vigneshb,0:00:20,N/A
-INBANL-PC0EX5K3,g2mvideoconference.exe,8428,Console,2,"45,788 K",Running,3AMLABS\vigneshb,0:00:21,CONPRO_SYSMSGRECEIVER
-INBANL-PC0EX5K3,FMAPP.exe,3684,Console,2,696 K,Running,3AMLABS\vigneshb,0:00:00,FM Hook Background
-INBANL-PC0EX5K3,EXCEL.EXE,9604,Console,2,"74,428 K",Running,3AMLABS\vigneshb,0:00:15,My_Ideas.xlsx - Excel
-INBANL-PC0EX5K3,scrutil.exe,80,Console,2,"26,832 K",Running,3AMLABS\vigneshb,0:01:31,MagD3DScreenReader_HostWindowName
-INBANL-PC0EX5K3,smartscreen.exe,5628,Console,2,"14,756 K",Unknown,3AMLABS\vigneshb,0:00:00,N/A
-INBANL-PC0EX5K3,cmd.exe,9736,Console,2,"4,248 K",Running,3AMLABS\vigneshb,0:00:00,C:\WINDOWS\system32\cmd.exe
-INBANL-PC0EX5K3,conhost.exe,3260,Console,2,"11,700 K",Running,3AMLABS\vigneshb,0:00:00,CicMarshalWnd
-INBANL-PC0EX5K3,SearchProtocolHost.exe,9360,Services,0,"12,176 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,SearchFilterHost.exe,8872,Services,0,"7,396 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,TrustedInstaller.exe,6332,Services,0,"6,872 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
-INBANL-PC0EX5K3,TiWorker.exe,11168,Services,0,"9,768 K",Unknown,NT AUTHORITY\SYSTEM,0:00:07,N/A
-INBANL-PC0EX5K3,tasklist.exe,1536,Console,2,"9,564 K",Unknown,3AMLABS\vigneshb,0:00:00,N/A
+INBANL-PC0EX5K3,System Idle Process,0,Services,0,4 K,Unknown,NT AUTHORITY\SYSTEM,367:46:13,N/A
+INBANL-PC0EX5K3,System,4,Services,0,"5,152 K",Unknown,N/A,8:08:51,N/A
+INBANL-PC0EX5K3,smss.exe,424,Services,0,216 K,Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
+INBANL-PC0EX5K3,csrss.exe,576,Services,0,"2,612 K",Unknown,NT AUTHORITY\SYSTEM,1:38:06,N/A
+INBANL-PC0EX5K3,wininit.exe,672,Services,0,28 K,Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
+INBANL-PC0EX5K3,csrss.exe,680,Console,1,"111,340 K",Running,NT AUTHORITY\SYSTEM,0:07:39,N/A
+INBANL-PC0EX5K3,winlogon.exe,756,Console,1,"3,944 K",Unknown,NT AUTHORITY\SYSTEM,0:00:08,N/A
+INBANL-PC0EX5K3,services.exe,816,Services,0,"8,232 K",Unknown,NT AUTHORITY\SYSTEM,1:43:57,N/A
+INBANL-PC0EX5K3,lsass.exe,824,Services,0,"17,348 K",Unknown,NT AUTHORITY\SYSTEM,0:11:32,N/A
+INBANL-PC0EX5K3,svchost.exe,928,Services,0,"17,136 K",Unknown,NT AUTHORITY\SYSTEM,0:08:26,N/A
+INBANL-PC0EX5K3,svchost.exe,992,Services,0,"14,712 K",Unknown,NT AUTHORITY\NETWORK SERVICE,0:13:41,N/A
+INBANL-PC0EX5K3,dwm.exe,564,Console,1,"93,668 K",Running,Window Manager\DWM-1,3:29:50,DWM Notification Window
+INBANL-PC0EX5K3,svchost.exe,76,Services,0,"20,832 K",Unknown,NT AUTHORITY\NETWORK SERVICE,0:07:00,N/A
+INBANL-PC0EX5K3,svchost.exe,1028,Services,0,"99,980 K",Unknown,NT AUTHORITY\SYSTEM,1:21:44,N/A
+INBANL-PC0EX5K3,svchost.exe,1060,Services,0,"144,756 K",Unknown,NT AUTHORITY\SYSTEM,2:12:54,N/A
+INBANL-PC0EX5K3,svchost.exe,1068,Services,0,"20,624 K",Unknown,NT AUTHORITY\LOCAL SERVICE,2:00:07,N/A
+INBANL-PC0EX5K3,svchost.exe,1076,Services,0,"32,852 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:03:16,N/A
+INBANL-PC0EX5K3,svchost.exe,1316,Services,0,"24,884 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:10:05,N/A
+INBANL-PC0EX5K3,WUDFHost.exe,1324,Services,0,"5,108 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:01,N/A
+INBANL-PC0EX5K3,ibmpmsvc.exe,1452,Services,0,"2,008 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
+INBANL-PC0EX5K3,LPlatSvc.exe,1460,Services,0,"3,828 K",Unknown,NT AUTHORITY\SYSTEM,0:00:10,N/A
+INBANL-PC0EX5K3,igfxCUIService.exe,1800,Services,0,"4,492 K",Unknown,NT AUTHORITY\SYSTEM,0:00:03,N/A
+INBANL-PC0EX5K3,svchost.exe,1640,Services,0,"6,808 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:01:23,N/A
+INBANL-PC0EX5K3,svchost.exe,2112,Services,0,"6,132 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:09,N/A
+INBANL-PC0EX5K3,svchost.exe,2188,Services,0,"10,620 K",Unknown,NT AUTHORITY\SYSTEM,0:02:15,N/A
+INBANL-PC0EX5K3,vpnagent.exe,2224,Services,0,"12,748 K",Unknown,NT AUTHORITY\SYSTEM,0:00:46,N/A
+INBANL-PC0EX5K3,spoolsv.exe,2592,Services,0,"13,304 K",Unknown,NT AUTHORITY\SYSTEM,0:00:52,N/A
+INBANL-PC0EX5K3,DolbyDAX2API.exe,2832,Services,0,"7,440 K",Unknown,NT AUTHORITY\SYSTEM,0:00:07,N/A
+INBANL-PC0EX5K3,OfficeClickToRun.exe,2840,Services,0,"15,072 K",Unknown,NT AUTHORITY\SYSTEM,0:07:38,N/A
+INBANL-PC0EX5K3,OcsService.exe,2880,Services,0,"2,268 K",Unknown,NT AUTHORITY\SYSTEM,0:02:05,N/A
+INBANL-PC0EX5K3,NVDisplay.Container.exe,2888,Services,0,"8,080 K",Unknown,NT AUTHORITY\SYSTEM,1:17:20,N/A
+INBANL-PC0EX5K3,ibtsiva.exe,2952,Services,0,"2,364 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
+INBANL-PC0EX5K3,SynTPEnhService.exe,2960,Services,0,"1,904 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
+INBANL-PC0EX5K3,vmware-usbarbitrator64.exe,2972,Services,0,"3,316 K",Unknown,NT AUTHORITY\SYSTEM,0:00:02,N/A
+INBANL-PC0EX5K3,vmware-authd.exe,2984,Services,0,"4,840 K",Unknown,NT AUTHORITY\SYSTEM,0:07:16,N/A
+INBANL-PC0EX5K3,svchost.exe,2992,Services,0,"4,908 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:06,N/A
+INBANL-PC0EX5K3,valWBFPolicyService.exe,3020,Services,0,"1,144 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
+INBANL-PC0EX5K3,valWbioSyncSvc.exe,3028,Services,0,"3,816 K",Unknown,NT AUTHORITY\SYSTEM,0:00:10,N/A
+INBANL-PC0EX5K3,vf_agent.exe,3036,Services,0,"36,300 K",Unknown,NT AUTHORITY\SYSTEM,4:20:55,N/A
+INBANL-PC0EX5K3,LMIGuardianSvc.exe,3052,Services,0,"2,124 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
+INBANL-PC0EX5K3,vmnetdhcp.exe,3060,Services,0,"1,136 K",Unknown,NT AUTHORITY\SYSTEM,0:00:02,N/A
+INBANL-PC0EX5K3,vmnat.exe,2216,Services,0,"2,760 K",Unknown,NT AUTHORITY\SYSTEM,0:00:04,N/A
+INBANL-PC0EX5K3,ServiceLayer.exe,2260,Services,0,"14,984 K",Unknown,NT AUTHORITY\SYSTEM,0:06:18,N/A
+INBANL-PC0EX5K3,svchost.exe,3096,Services,0,"15,816 K",Unknown,NT AUTHORITY\SYSTEM,0:01:18,N/A
+INBANL-PC0EX5K3,svchost.exe,3108,Services,0,"12,468 K",Unknown,NT AUTHORITY\SYSTEM,0:01:13,N/A
+INBANL-PC0EX5K3,tlaservice.exe,3128,Services,0,"11,472 K",Unknown,NT AUTHORITY\SYSTEM,11:23:47,N/A
+INBANL-PC0EX5K3,cyserver.exe,3136,Services,0,"3,144 K",Unknown,NT AUTHORITY\SYSTEM,0:00:02,N/A
+INBANL-PC0EX5K3,Memory Compression,3212,Services,0,"1,594,300 K",Unknown,NT AUTHORITY\SYSTEM,0:04:33,N/A
+INBANL-PC0EX5K3,MsMpEng.exe,3252,Services,0,"16,072 K",Unknown,NT AUTHORITY\SYSTEM,0:51:58,N/A
+INBANL-PC0EX5K3,nvxdsync.exe,3572,Console,1,"17,796 K",Running,NT AUTHORITY\SYSTEM,0:01:02,NvSvc
+INBANL-PC0EX5K3,tlaworker.exe,3752,Services,0,"1,848 K",Unknown,NT AUTHORITY\SYSTEM,0:00:24,N/A
+INBANL-PC0EX5K3,tlaworker.exe,3760,Services,0,"1,852 K",Unknown,NT AUTHORITY\SYSTEM,0:00:25,N/A
+INBANL-PC0EX5K3,tlaworker.exe,3808,Services,0,"1,840 K",Unknown,NT AUTHORITY\SYSTEM,0:00:23,N/A
+INBANL-PC0EX5K3,tlaworker.exe,3816,Services,0,"1,944 K",Unknown,NT AUTHORITY\SYSTEM,0:00:26,N/A
+INBANL-PC0EX5K3,svchost.exe,3956,Services,0,"4,356 K",Unknown,NT AUTHORITY\NETWORK SERVICE,0:00:34,N/A
+INBANL-PC0EX5K3,MsDtsSrvr.exe,4132,Services,0,"2,864 K",Unknown,NT SERVICE\MsDtsServer120,0:00:02,N/A
+INBANL-PC0EX5K3,vmware-hostd.exe,4460,Services,0,"13,176 K",Unknown,NT AUTHORITY\SYSTEM,0:02:28,N/A
+INBANL-PC0EX5K3,WmiPrvSE.exe,4800,Services,0,"29,048 K",Unknown,NT AUTHORITY\NETWORK SERVICE,2:04:14,N/A
+INBANL-PC0EX5K3,WmiPrvSE.exe,4872,Services,0,"17,692 K",Unknown,NT AUTHORITY\SYSTEM,0:14:06,N/A
+INBANL-PC0EX5K3,CcmExec.exe,840,Services,0,"51,628 K",Unknown,NT AUTHORITY\SYSTEM,3:05:54,N/A
+INBANL-PC0EX5K3,WmiPrvSE.exe,4964,Services,0,"10,900 K",Unknown,NT AUTHORITY\SYSTEM,0:00:26,N/A
+INBANL-PC0EX5K3,CmRcService.exe,4680,Services,0,"3,596 K",Unknown,NT AUTHORITY\SYSTEM,0:00:02,N/A
+INBANL-PC0EX5K3,WmiPrvSE.exe,5500,Services,0,"10,164 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:28,N/A
+INBANL-PC0EX5K3,WmiPrvSE.exe,5992,Services,0,"4,660 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:05,N/A
+INBANL-PC0EX5K3,sihost.exe,5920,Console,1,"22,392 K",Not Responding,3AMLABS\vigneshb,0:02:01,N/A
+INBANL-PC0EX5K3,svchost.exe,5312,Console,1,"15,616 K",Unknown,3AMLABS\vigneshb,0:00:26,N/A
+INBANL-PC0EX5K3,SynTPEnh.exe,2612,Console,1,"11,400 K",Running,3AMLABS\vigneshb,1:08:14,Forcepad driver tray window
+INBANL-PC0EX5K3,SensorDBSynch.exe,2908,Console,1,252 K,Unknown,3AMLABS\vigneshb,0:00:00,N/A
+INBANL-PC0EX5K3,taskhostw.exe,5332,Console,1,"14,732 K",Running,3AMLABS\vigneshb,0:03:59,Task Host Window
+INBANL-PC0EX5K3,PresentationFontCache.exe,5184,Services,0,"1,672 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:01,N/A
+INBANL-PC0EX5K3,RuntimeBroker.exe,5708,Console,1,"55,352 K",Running,3AMLABS\vigneshb,0:14:40,N/A
+INBANL-PC0EX5K3,conhost.exe,3968,Console,1,244 K,Unknown,3AMLABS\vigneshb,0:00:00,N/A
+INBANL-PC0EX5K3,explorer.exe,4108,Console,1,"150,424 K",Running,3AMLABS\vigneshb,0:48:45,N/A
+INBANL-PC0EX5K3,SynTPHelper.exe,5620,Console,1,600 K,Running,3AMLABS\vigneshb,0:00:00,N/A
+INBANL-PC0EX5K3,igfxEM.exe,5652,Console,1,"69,140 K",Running,3AMLABS\vigneshb,0:00:46,The Event Manager - Status
+INBANL-PC0EX5K3,igfxHK.exe,5264,Console,1,"1,736 K",Running,3AMLABS\vigneshb,0:00:00,HotKey Listener
+INBANL-PC0EX5K3,WmiPrvSE.exe,2204,Services,0,"11,012 K",Unknown,NT AUTHORITY\SYSTEM,0:05:05,N/A
+INBANL-PC0EX5K3,SynTPLpr.exe,5192,Console,1,468 K,Running,3AMLABS\vigneshb,0:00:00,Touchpad driver helper window
+INBANL-PC0EX5K3,SynLenovoHelper.exe,5424,Console,1,"1,388 K",Running,3AMLABS\vigneshb,0:00:00,TouchPad object helper window
+INBANL-PC0EX5K3,SCNotification.exe,184,Console,1,"18,072 K",Running,3AMLABS\vigneshb,0:00:16,.NET-BroadcastEventWindow.4.0.0.0.1ca0192.0
+INBANL-PC0EX5K3,ShellExperienceHost.exe,380,Console,1,"100,560 K",Running,3AMLABS\vigneshb,0:02:43,New notification
+INBANL-PC0EX5K3,Microsoft.StickyNotes.exe,3276,Console,1,"16,424 K",Running,3AMLABS\vigneshb,0:00:16,Sticky Notes
+INBANL-PC0EX5K3,MSASCuiL.exe,7296,Console,1,"2,676 K",Running,3AMLABS\vigneshb,0:00:00,Windows Defender
+INBANL-PC0EX5K3,RAVBg64.exe,7332,Console,1,"1,180 K",Running,3AMLABS\vigneshb,0:00:02,Realtek HD Audio Background Process for Vista
+INBANL-PC0EX5K3,RAVBg64.exe,7348,Console,1,"1,300 K",Running,3AMLABS\vigneshb,0:00:02,Realtek HD Audio Background Process for Vista
+INBANL-PC0EX5K3,RAVCpl64.exe,7364,Console,1,"2,416 K",Running,3AMLABS\vigneshb,0:00:06,Realtek HD Audio CPL for Vista
+INBANL-PC0EX5K3,cytray.exe,7372,Console,1,"4,380 K",Running,3AMLABS\vigneshb,0:15:24,N/A
+INBANL-PC0EX5K3,vf_host.exe,7488,Console,1,"3,176 K",Running,3AMLABS\vigneshb,0:00:00,vfTrayIconNotifyWndTitle
+INBANL-PC0EX5K3,OneDrive.exe,7688,Console,1,"12,224 K",Running,3AMLABS\vigneshb,0:00:11,DDE Server Window
+INBANL-PC0EX5K3,GoToMeeting Messenger.exe,7056,Console,1,"44,124 K",Running,3AMLABS\vigneshb,0:07:34,GoToMeeting Messenger
+INBANL-PC0EX5K3,slack.exe,7136,Console,1,"81,588 K",Running,3AMLABS\vigneshb,0:34:10,Slack - LogMeIn
+INBANL-PC0EX5K3,ONENOTEM.EXE,6524,Console,1,"1,356 K",Running,3AMLABS\vigneshb,0:00:00,Microsoft OneNote 2016 - Windows taskbar
+INBANL-PC0EX5K3,slack.exe,7228,Console,1,"73,964 K",Running,3AMLABS\vigneshb,0:11:36,N/A
+INBANL-PC0EX5K3,slack.exe,7484,Console,1,"1,596 K",Running,3AMLABS\vigneshb,0:00:00,crash service
+INBANL-PC0EX5K3,slack.exe,4020,Console,1,"71,356 K",Unknown,3AMLABS\vigneshb,0:02:51,N/A
+INBANL-PC0EX5K3,vpnui.exe,2744,Console,1,"11,228 K",Running,3AMLABS\vigneshb,0:01:08,N/A
+INBANL-PC0EX5K3,GoToMeeting Messenger.exe,6444,Console,1,"5,792 K",Running,3AMLABS\vigneshb,0:00:04,N/A
+INBANL-PC0EX5K3,vmware-tray.exe,7772,Console,1,904 K,Running,3AMLABS\vigneshb,0:00:00,vmware-tray Main UI Window
+INBANL-PC0EX5K3,ApplicationFrameHost.exe,8804,Console,1,"21,008 K",Running,3AMLABS\vigneshb,0:00:15,C:\Users\vigneshb\Desktop\Innovation 2017\Phishing Project\mini_proj 6\mini_proj 6\index.html and 6 more pages ?- Microsoft Edge
+INBANL-PC0EX5K3,dllhost.exe,7308,Console,1,"7,556 K",Running,3AMLABS\vigneshb,0:00:32,OleMainThreadWndName
+INBANL-PC0EX5K3,svchost.exe,10508,Services,0,"8,100 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:01:11,N/A
+INBANL-PC0EX5K3,SystemSettingsBroker.exe,10404,Console,1,"9,164 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
+INBANL-PC0EX5K3,SettingSyncHost.exe,9612,Console,1,"1,068 K",Running,3AMLABS\vigneshb,0:00:11,N/A
+INBANL-PC0EX5K3,LPlatSvc.exe,11488,Console,1,700 K,Running,3AMLABS\vigneshb,0:00:00,LPlatSvc
+INBANL-PC0EX5K3,Calculator.exe,15040,Console,1,252 K,Running,3AMLABS\vigneshb,0:00:00,Calculator
+INBANL-PC0EX5K3,LPlatSvc.exe,15248,Console,1,720 K,Running,3AMLABS\vigneshb,0:00:00,LPlatSvc
+INBANL-PC0EX5K3,fontdrvhost.exe,14416,Console,1,424 K,Unknown,N/A,0:00:00,N/A
+INBANL-PC0EX5K3,g2mstart.exe,7016,Console,1,"1,892 K",Running,3AMLABS\vigneshb,0:00:37,N/A
+INBANL-PC0EX5K3,g2mcomm.exe,11152,Console,1,"27,556 K",Unknown,3AMLABS\vigneshb,1:33:01,N/A
+INBANL-PC0EX5K3,g2mlauncher.exe,11244,Console,1,"13,636 K",Running,3AMLABS\vigneshb,0:00:14,N/A
+INBANL-PC0EX5K3,slack.exe,12352,Console,1,"450,664 K",Unknown,3AMLABS\vigneshb,0:20:21,N/A
+INBANL-PC0EX5K3,chrome.exe,11572,Console,1,"219,228 K",Running,3AMLABS\vigneshb,0:26:50,MagicQuadrantforSecurityAwareness.pdf - Google Chrome
+INBANL-PC0EX5K3,chrome.exe,13032,Console,1,"2,216 K",Running,3AMLABS\vigneshb,0:00:01,N/A
+INBANL-PC0EX5K3,chrome.exe,10504,Console,1,884 K,Running,3AMLABS\vigneshb,0:00:01,N/A
+INBANL-PC0EX5K3,chrome.exe,11696,Console,1,"75,208 K",Running,3AMLABS\vigneshb,0:04:55,N/A
+INBANL-PC0EX5K3,chrome.exe,10864,Console,1,"135,368 K",Unknown,3AMLABS\vigneshb,0:06:18,N/A
+INBANL-PC0EX5K3,chrome.exe,8664,Console,1,"39,248 K",Unknown,3AMLABS\vigneshb,0:00:25,N/A
+INBANL-PC0EX5K3,chrome.exe,15972,Console,1,"43,180 K",Unknown,3AMLABS\vigneshb,0:03:28,N/A
+INBANL-PC0EX5K3,chrome.exe,10912,Console,1,"6,924 K",Unknown,3AMLABS\vigneshb,0:01:12,N/A
+INBANL-PC0EX5K3,chrome.exe,11184,Console,1,"6,416 K",Unknown,3AMLABS\vigneshb,0:00:07,N/A
+INBANL-PC0EX5K3,chrome.exe,13568,Console,1,"5,328 K",Unknown,3AMLABS\vigneshb,0:00:06,N/A
+INBANL-PC0EX5K3,chrome.exe,12800,Console,1,"4,836 K",Unknown,3AMLABS\vigneshb,0:00:04,N/A
+INBANL-PC0EX5K3,chrome.exe,16084,Console,1,"28,968 K",Unknown,3AMLABS\vigneshb,0:00:19,N/A
+INBANL-PC0EX5K3,chrome.exe,16308,Console,1,"10,920 K",Unknown,3AMLABS\vigneshb,0:00:07,N/A
+INBANL-PC0EX5K3,chrome.exe,15268,Console,1,"3,860 K",Unknown,3AMLABS\vigneshb,0:00:04,N/A
+INBANL-PC0EX5K3,chrome.exe,3204,Console,1,"4,128 K",Unknown,3AMLABS\vigneshb,0:00:04,N/A
+INBANL-PC0EX5K3,chrome.exe,7156,Console,1,"37,168 K",Unknown,3AMLABS\vigneshb,0:00:23,N/A
+INBANL-PC0EX5K3,chrome.exe,10512,Console,1,"5,276 K",Unknown,3AMLABS\vigneshb,0:00:10,N/A
+INBANL-PC0EX5K3,chrome.exe,9288,Console,1,"16,824 K",Unknown,3AMLABS\vigneshb,0:01:45,N/A
+INBANL-PC0EX5K3,chrome.exe,11632,Console,1,"4,260 K",Unknown,3AMLABS\vigneshb,0:00:04,N/A
+INBANL-PC0EX5K3,chrome.exe,14776,Console,1,"3,812 K",Unknown,3AMLABS\vigneshb,0:00:03,N/A
+INBANL-PC0EX5K3,chrome.exe,10416,Console,1,"12,384 K",Unknown,3AMLABS\vigneshb,0:00:06,N/A
+INBANL-PC0EX5K3,chrome.exe,16284,Console,1,"11,556 K",Unknown,3AMLABS\vigneshb,0:00:06,N/A
+INBANL-PC0EX5K3,chrome.exe,11704,Console,1,"3,796 K",Unknown,3AMLABS\vigneshb,0:00:04,N/A
+INBANL-PC0EX5K3,chrome.exe,13804,Console,1,"3,840 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
+INBANL-PC0EX5K3,chrome.exe,15364,Console,1,"11,284 K",Unknown,3AMLABS\vigneshb,0:00:31,N/A
+INBANL-PC0EX5K3,chrome.exe,14368,Console,1,"11,316 K",Unknown,3AMLABS\vigneshb,0:00:06,N/A
+INBANL-PC0EX5K3,chrome.exe,1204,Console,1,"83,384 K",Unknown,3AMLABS\vigneshb,0:00:23,N/A
+INBANL-PC0EX5K3,chrome.exe,15444,Console,1,"30,328 K",Unknown,3AMLABS\vigneshb,0:00:15,N/A
+INBANL-PC0EX5K3,chrome.exe,6392,Console,1,"4,288 K",Unknown,3AMLABS\vigneshb,0:00:07,N/A
+INBANL-PC0EX5K3,chrome.exe,5780,Console,1,"4,220 K",Unknown,3AMLABS\vigneshb,0:00:08,N/A
+INBANL-PC0EX5K3,ConEmu64.exe,6676,Console,1,"16,900 K",Running,3AMLABS\vigneshb,0:00:28,cmd
+INBANL-PC0EX5K3,ConEmuC64.exe,16116,Console,1,"1,152 K",Running,3AMLABS\vigneshb,0:00:11,powershell
+INBANL-PC0EX5K3,conhost.exe,11180,Console,1,912 K,Unknown,3AMLABS\vigneshb,0:00:12,N/A
+INBANL-PC0EX5K3,powershell.exe,11924,Console,1,"6,160 K",Running,3AMLABS\vigneshb,0:00:03,OleMainThreadWndName
+INBANL-PC0EX5K3,chrome.exe,11604,Console,1,"25,620 K",Unknown,3AMLABS\vigneshb,0:01:06,N/A
+INBANL-PC0EX5K3,chrome.exe,13164,Console,1,"16,204 K",Unknown,3AMLABS\vigneshb,0:00:14,N/A
+INBANL-PC0EX5K3,chrome.exe,8528,Console,1,"25,708 K",Unknown,3AMLABS\vigneshb,0:00:10,N/A
+INBANL-PC0EX5K3,ConEmuC64.exe,10368,Console,1,"1,324 K",Running,3AMLABS\vigneshb,0:07:10,cmd
+INBANL-PC0EX5K3,conhost.exe,15784,Console,1,"3,364 K",Running,3AMLABS\vigneshb,0:06:30,CicMarshalWnd
+INBANL-PC0EX5K3,cmd.exe,11972,Console,1,"10,676 K",Unknown,3AMLABS\vigneshb,0:00:05,N/A
+INBANL-PC0EX5K3,chrome.exe,8292,Console,1,"308,928 K",Unknown,3AMLABS\vigneshb,0:15:47,N/A
+INBANL-PC0EX5K3,DataExchangeHost.exe,8164,Console,1,"18,000 K",Running,3AMLABS\vigneshb,0:00:01,OLEChannelWnd
+INBANL-PC0EX5K3,OUTLOOK.EXE,2080,Console,1,"187,080 K",Running,3AMLABS\vigneshb,0:12:00,Inbox - Vignesh.Balakrishnan@logmein.com - Outlook
+INBANL-PC0EX5K3,MicrosoftEdge.exe,7144,Console,1,"71,704 K",Running,3AMLABS\vigneshb,0:04:03,Microsoft Edge
+INBANL-PC0EX5K3,browser_broker.exe,11196,Console,1,"24,728 K",Running,3AMLABS\vigneshb,0:00:07,OLEChannelWnd
+INBANL-PC0EX5K3,MicrosoftEdgeCP.exe,14664,Console,1,"29,356 K",Running,3AMLABS\vigneshb,0:00:14,N/A
+INBANL-PC0EX5K3,MicrosoftEdgeCP.exe,5788,Console,1,"673,448 K",Running,3AMLABS\vigneshb,0:11:57,N/A
+INBANL-PC0EX5K3,smartscreen.exe,12984,Console,1,"19,368 K",Unknown,3AMLABS\vigneshb,0:00:06,N/A
+INBANL-PC0EX5K3,MicrosoftEdgeCP.exe,10424,Console,1,"10,484 K",Running,3AMLABS\vigneshb,0:00:02,N/A
+INBANL-PC0EX5K3,MicrosoftEdgeCP.exe,11456,Console,1,"22,216 K",Running,3AMLABS\vigneshb,0:02:26,N/A
+INBANL-PC0EX5K3,MicrosoftEdgeCP.exe,11612,Console,1,"10,408 K",Running,3AMLABS\vigneshb,0:00:01,N/A
+INBANL-PC0EX5K3,MicrosoftEdgeCP.exe,15780,Console,1,"143,328 K",Running,3AMLABS\vigneshb,0:02:57,N/A
+INBANL-PC0EX5K3,GoToMeeting Messenger.exe,13732,Console,1,"59,404 K",Unknown,3AMLABS\vigneshb,0:00:42,N/A
+INBANL-PC0EX5K3,MicrosoftEdgeCP.exe,10828,Console,1,"167,736 K",Running,3AMLABS\vigneshb,0:06:16,N/A
+INBANL-PC0EX5K3,MicrosoftEdgeCP.exe,9956,Console,1,"15,524 K",Running,3AMLABS\vigneshb,0:00:06,N/A
+INBANL-PC0EX5K3,chrome.exe,12040,Console,1,"16,868 K",Unknown,3AMLABS\vigneshb,0:00:09,N/A
+INBANL-PC0EX5K3,chrome.exe,7944,Console,1,"27,904 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
+INBANL-PC0EX5K3,chrome.exe,7564,Console,1,"29,844 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
+INBANL-PC0EX5K3,SearchIndexer.exe,588,Services,0,"55,504 K",Unknown,NT AUTHORITY\SYSTEM,0:04:49,N/A
+INBANL-PC0EX5K3,armsvc.exe,5400,Services,0,"13,540 K",Unknown,NT AUTHORITY\SYSTEM,0:00:01,N/A
+INBANL-PC0EX5K3,notepad++.exe,12836,Console,1,"18,564 K",Running,3AMLABS\vigneshb,0:00:11,C:\Users\vigneshb\Desktop\Innovation 2017\Phishing Project\mini_proj 6\mini_proj 6\index.html - Notepad++
+INBANL-PC0EX5K3,chrome.exe,16088,Console,1,"41,532 K",Unknown,3AMLABS\vigneshb,0:00:10,N/A
+INBANL-PC0EX5K3,LPlatSvc.exe,1048,Console,1,"6,520 K",Running,3AMLABS\vigneshb,0:00:00,LPlatSvc
+INBANL-PC0EX5K3,chrome.exe,9124,Console,1,"40,640 K",Unknown,3AMLABS\vigneshb,0:00:06,N/A
+INBANL-PC0EX5K3,chrome.exe,15624,Console,1,"36,448 K",Unknown,3AMLABS\vigneshb,0:00:04,N/A
+INBANL-PC0EX5K3,chrome.exe,18028,Console,1,"30,864 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
+INBANL-PC0EX5K3,chrome.exe,12232,Console,1,"30,888 K",Unknown,3AMLABS\vigneshb,0:00:03,N/A
+INBANL-PC0EX5K3,chrome.exe,6944,Console,1,"37,608 K",Unknown,3AMLABS\vigneshb,0:00:07,N/A
+INBANL-PC0EX5K3,EXCEL.EXE,16256,Console,1,"64,036 K",Running,3AMLABS\vigneshb,0:00:21,My_Ideas.xlsx - Excel
+INBANL-PC0EX5K3,chrome.exe,18212,Console,1,"42,064 K",Unknown,3AMLABS\vigneshb,0:00:08,N/A
+INBANL-PC0EX5K3,MicrosoftEdgeCP.exe,13088,Console,1,"68,820 K",Running,3AMLABS\vigneshb,0:00:08,N/A
+INBANL-PC0EX5K3,POWERPNT.EXE,15408,Console,1,"104,500 K",Running,3AMLABS\vigneshb,0:00:21,Phishing_Innovation_2017.pptx - PowerPoint
+INBANL-PC0EX5K3,Microsoft.Photos.exe,9008,Console,1,"65,696 K",Running,3AMLABS\vigneshb,0:00:06,Photos
+INBANL-PC0EX5K3,chrome.exe,7696,Console,1,"77,316 K",Unknown,3AMLABS\vigneshb,0:00:15,N/A
+INBANL-PC0EX5K3,chrome.exe,10216,Console,1,"71,232 K",Unknown,3AMLABS\vigneshb,0:00:06,N/A
+INBANL-PC0EX5K3,chrome.exe,16432,Console,1,"35,156 K",Unknown,3AMLABS\vigneshb,0:00:02,N/A
+INBANL-PC0EX5K3,SearchUI.exe,5208,Console,1,"94,396 K",Running,3AMLABS\vigneshb,0:00:04,Cortana
+INBANL-PC0EX5K3,taskhostw.exe,10956,Console,1,"7,076 K",Running,3AMLABS\vigneshb,0:00:00,Task Host Window
+INBANL-PC0EX5K3,LPlatSvc.exe,16536,Console,1,"7,236 K",Running,3AMLABS\vigneshb,0:00:00,LPlatSvc
+INBANL-PC0EX5K3,svchost.exe,18148,Services,0,"6,992 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
+INBANL-PC0EX5K3,audiodg.exe,17852,Services,0,"15,028 K",Unknown,NT AUTHORITY\LOCAL SERVICE,0:00:00,N/A
+INBANL-PC0EX5K3,SearchProtocolHost.exe,6156,Services,0,"11,624 K",Unknown,NT AUTHORITY\SYSTEM,0:00:04,N/A
+INBANL-PC0EX5K3,SearchFilterHost.exe,8212,Services,0,"6,248 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
+INBANL-PC0EX5K3,cmd.exe,6936,Console,1,"4,256 K",Running,3AMLABS\vigneshb,0:00:00,C:\WINDOWS\system32\cmd.exe
+INBANL-PC0EX5K3,conhost.exe,12244,Console,1,"11,892 K",Running,3AMLABS\vigneshb,0:00:00,CicMarshalWnd
+INBANL-PC0EX5K3,TrustedInstaller.exe,5844,Services,0,"6,712 K",Unknown,NT AUTHORITY\SYSTEM,0:00:00,N/A
+INBANL-PC0EX5K3,TiWorker.exe,8044,Services,0,"10,784 K",Unknown,NT AUTHORITY\SYSTEM,0:00:02,N/A
+INBANL-PC0EX5K3,tasklist.exe,14412,Console,1,"10,376 K",Unknown,3AMLABS\vigneshb,0:00:00,N/A
