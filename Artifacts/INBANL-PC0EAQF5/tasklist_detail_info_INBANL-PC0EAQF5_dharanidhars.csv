@@ -1,0 +1,142 @@
+Hostname,Image Name,PID,Session Name,Session#,Mem Usage,Status,User Name,CPU Time,Window Title
+INBANL-PC0EAQF5,System Idle Process,0,Services,0,4 K,Unknown,NT AUTHORITY\SYSTEM,80:01:17,N/A
+INBANL-PC0EAQF5,System,4,Services,0,"7,020 K",Unknown,N/A,0:53:30,N/A
+INBANL-PC0EAQF5,smss.exe,388,Services,0,868 K,Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,csrss.exe,528,Services,0,"4,212 K",Unknown,N/A,0:00:57,N/A
+INBANL-PC0EAQF5,wininit.exe,620,Services,0,"4,400 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,services.exe,760,Services,0,"9,948 K",Unknown,N/A,0:08:32,N/A
+INBANL-PC0EAQF5,lsass.exe,788,Services,0,"19,488 K",Unknown,N/A,0:01:37,N/A
+INBANL-PC0EAQF5,svchost.exe,888,Services,0,"22,396 K",Unknown,N/A,0:00:46,N/A
+INBANL-PC0EAQF5,svchost.exe,976,Services,0,"13,756 K",Unknown,N/A,0:01:57,N/A
+INBANL-PC0EAQF5,svchost.exe,532,Services,0,"69,792 K",Unknown,N/A,0:06:29,N/A
+INBANL-PC0EAQF5,svchost.exe,864,Services,0,"21,920 K",Unknown,N/A,0:00:37,N/A
+INBANL-PC0EAQF5,svchost.exe,356,Services,0,"23,140 K",Unknown,N/A,0:01:09,N/A
+INBANL-PC0EAQF5,svchost.exe,1128,Services,0,"24,752 K",Unknown,N/A,0:04:08,N/A
+INBANL-PC0EAQF5,svchost.exe,1136,Services,0,"38,316 K",Unknown,N/A,0:00:24,N/A
+INBANL-PC0EAQF5,WUDFHost.exe,1224,Services,0,"9,300 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,svchost.exe,1360,Services,0,"26,700 K",Unknown,N/A,0:00:42,N/A
+INBANL-PC0EAQF5,LPlatSvc.exe,1524,Services,0,"6,216 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,ibmpmsvc.exe,1532,Services,0,"4,072 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,igfxCUIService.exe,1884,Services,0,"7,700 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,svchost.exe,2028,Services,0,"9,208 K",Unknown,N/A,0:00:09,N/A
+INBANL-PC0EAQF5,svchost.exe,432,Services,0,"10,464 K",Unknown,N/A,0:00:01,N/A
+INBANL-PC0EAQF5,vpnagent.exe,1308,Services,0,"12,756 K",Unknown,N/A,0:00:12,N/A
+INBANL-PC0EAQF5,svchost.exe,2112,Services,0,"16,472 K",Unknown,N/A,0:00:05,N/A
+INBANL-PC0EAQF5,spoolsv.exe,2368,Services,0,"14,940 K",Unknown,N/A,0:00:02,N/A
+INBANL-PC0EAQF5,cyserver.exe,2488,Services,0,"4,772 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,svchost.exe,2496,Services,0,"24,116 K",Unknown,N/A,0:00:07,N/A
+INBANL-PC0EAQF5,CyveraService.exe,2504,Services,0,"49,892 K",Unknown,N/A,0:15:04,N/A
+INBANL-PC0EAQF5,ibtsiva.exe,2512,Services,0,"3,388 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,OfficeClickToRun.exe,2520,Services,0,"29,112 K",Unknown,N/A,0:01:06,N/A
+INBANL-PC0EAQF5,LMIGuardianSvc.exe,2560,Services,0,"6,456 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,DolbyDAX2API.exe,2568,Services,0,"19,380 K",Unknown,N/A,0:00:02,N/A
+INBANL-PC0EAQF5,svchost.exe,2588,Services,0,"17,808 K",Unknown,N/A,0:00:18,N/A
+INBANL-PC0EAQF5,tlaservice.exe,2612,Services,0,"4,888 K",Unknown,N/A,0:00:01,N/A
+INBANL-PC0EAQF5,valWBFPolicyService.exe,2792,Services,0,"3,256 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,MsMpEng.exe,2800,Services,0,"20,144 K",Unknown,N/A,0:07:44,N/A
+INBANL-PC0EAQF5,SynTPEnhService.exe,2816,Services,0,"3,824 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,OcsService.exe,2808,Services,0,"6,808 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,valWbioSyncSvc.exe,2852,Services,0,"7,528 K",Unknown,N/A,0:00:01,N/A
+INBANL-PC0EAQF5,tda.exe,2860,Services,0,"4,944 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,Memory Compression,1512,Services,0,"272,120 K",Unknown,N/A,0:04:11,N/A
+INBANL-PC0EAQF5,tdawork.exe,3128,Services,0,"3,728 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,tdawork.exe,3144,Services,0,"3,728 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,tdawork.exe,3168,Services,0,"3,728 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,tdawork.exe,3220,Services,0,"3,728 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,svchost.exe,3600,Services,0,"6,388 K",Unknown,N/A,0:00:06,N/A
+INBANL-PC0EAQF5,tlaworker.exe,3628,Services,0,"1,736 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,tlaworker.exe,3636,Services,0,"1,736 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,tlaworker.exe,3644,Services,0,"1,736 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,tlaworker.exe,3652,Services,0,"1,736 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,svchost.exe,3952,Services,0,"7,996 K",Unknown,N/A,0:00:27,N/A
+INBANL-PC0EAQF5,PresentationFontCache.exe,720,Services,0,"14,960 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,WmiPrvSE.exe,3496,Services,0,"12,724 K",Unknown,N/A,0:00:25,N/A
+INBANL-PC0EAQF5,CcmExec.exe,4336,Services,0,"48,892 K",Unknown,N/A,0:01:46,N/A
+INBANL-PC0EAQF5,WmiPrvSE.exe,4628,Services,0,"30,856 K",Unknown,N/A,0:04:13,N/A
+INBANL-PC0EAQF5,WmiPrvSE.exe,4840,Services,0,"11,864 K",Unknown,N/A,0:00:05,N/A
+INBANL-PC0EAQF5,SearchIndexer.exe,4868,Services,0,"38,308 K",Unknown,N/A,0:01:45,N/A
+INBANL-PC0EAQF5,WmiPrvSE.exe,6880,Services,0,"11,924 K",Unknown,N/A,0:00:02,N/A
+INBANL-PC0EAQF5,WmiPrvSE.exe,5916,Services,0,"7,996 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,CmRcService.exe,7728,Services,0,"9,044 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,WmiPrvSE.exe,4160,Services,0,"14,456 K",Unknown,N/A,0:00:03,N/A
+INBANL-PC0EAQF5,csrss.exe,5124,Console,3,"13,464 K",Running,N/A,0:00:33,N/A
+INBANL-PC0EAQF5,winlogon.exe,4368,Console,3,"7,556 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,dwm.exe,7448,Console,3,"66,724 K",Running,N/A,0:20:12,DWM Notification Window
+INBANL-PC0EAQF5,SynTPEnh.exe,11064,Console,3,"20,704 K",Running,3AMLABS\dharanidhars,0:03:51,Forcepad driver tray window
+INBANL-PC0EAQF5,sihost.exe,10692,Console,3,"29,596 K",Not Responding,3AMLABS\dharanidhars,0:00:07,N/A
+INBANL-PC0EAQF5,svchost.exe,6840,Console,3,"23,592 K",Unknown,3AMLABS\dharanidhars,0:00:03,N/A
+INBANL-PC0EAQF5,SensorDBSynch.exe,2420,Console,3,"4,016 K",Unknown,3AMLABS\dharanidhars,0:00:00,N/A
+INBANL-PC0EAQF5,conhost.exe,9312,Console,3,"4,592 K",Unknown,3AMLABS\dharanidhars,0:00:00,N/A
+INBANL-PC0EAQF5,taskhostw.exe,8628,Console,3,"24,984 K",Running,3AMLABS\dharanidhars,0:00:11,Task Host Window
+INBANL-PC0EAQF5,RtsCM64.exe,5804,Console,3,136 K,Running,3AMLABS\dharanidhars,0:00:00,FutitsuCam
+INBANL-PC0EAQF5,igfxEM.exe,7884,Console,3,"12,560 K",Running,3AMLABS\dharanidhars,0:00:00,The Event Manager - Status
+INBANL-PC0EAQF5,igfxHK.exe,7636,Console,3,"8,280 K",Running,3AMLABS\dharanidhars,0:00:00,HotKey Listener
+INBANL-PC0EAQF5,RuntimeBroker.exe,5788,Console,3,"53,416 K",Running,3AMLABS\dharanidhars,0:00:25,N/A
+INBANL-PC0EAQF5,explorer.exe,7752,Console,3,"104,272 K",Running,3AMLABS\dharanidhars,0:01:20,N/A
+INBANL-PC0EAQF5,SynTPHelper.exe,6212,Console,3,"4,556 K",Running,3AMLABS\dharanidhars,0:00:00,N/A
+INBANL-PC0EAQF5,ShellExperienceHost.exe,3300,Console,3,"43,740 K",Running,3AMLABS\dharanidhars,0:00:28,New notification
+INBANL-PC0EAQF5,Microsoft.StickyNotes.exe,9688,Console,3,"37,440 K",Running,3AMLABS\dharanidhars,0:00:03,Sticky Notes
+INBANL-PC0EAQF5,SynTPLpr.exe,5944,Console,3,"6,324 K",Running,3AMLABS\dharanidhars,0:00:00,Touchpad driver helper window
+INBANL-PC0EAQF5,SynLenovoHelper.exe,6648,Console,3,"7,276 K",Running,3AMLABS\dharanidhars,0:00:00,TouchPad object helper window
+INBANL-PC0EAQF5,MSASCuiL.exe,6292,Console,3,"11,004 K",Running,3AMLABS\dharanidhars,0:00:00,Windows Defender
+INBANL-PC0EAQF5,SCNotification.exe,5648,Console,3,"30,492 K",Running,3AMLABS\dharanidhars,0:00:01,N/A
+INBANL-PC0EAQF5,cytray.exe,7024,Console,3,"5,848 K",Running,3AMLABS\dharanidhars,0:00:02,N/A
+INBANL-PC0EAQF5,OneDrive.exe,5612,Console,3,"30,816 K",Running,3AMLABS\dharanidhars,0:00:00,DDE Server Window
+INBANL-PC0EAQF5,slack.exe,8496,Console,3,"89,356 K",Running,3AMLABS\dharanidhars,0:02:54,Slack - LogMeIn
+INBANL-PC0EAQF5,g2mstart.exe,9736,Console,3,"13,912 K",Running,3AMLABS\dharanidhars,0:00:00,N/A
+INBANL-PC0EAQF5,g2mcomm.exe,2732,Console,3,"31,476 K",Unknown,3AMLABS\dharanidhars,0:12:04,N/A
+INBANL-PC0EAQF5,g2mlauncher.exe,8744,Console,3,"24,308 K",Running,3AMLABS\dharanidhars,0:00:02,N/A
+INBANL-PC0EAQF5,vpnui.exe,10540,Console,3,"27,284 K",Running,3AMLABS\dharanidhars,0:00:31,N/A
+INBANL-PC0EAQF5,slack.exe,10324,Console,3,"67,756 K",Running,3AMLABS\dharanidhars,0:00:52,N/A
+INBANL-PC0EAQF5,slack.exe,4884,Console,3,"10,340 K",Running,3AMLABS\dharanidhars,0:00:00,crash service
+INBANL-PC0EAQF5,slack.exe,10492,Console,3,"82,476 K",Running,3AMLABS\dharanidhars,0:00:21,OleMainThreadWndName
+INBANL-PC0EAQF5,slack.exe,11148,Console,3,"216,060 K",Unknown,3AMLABS\dharanidhars,0:03:40,N/A
+INBANL-PC0EAQF5,RAVBg64.exe,4720,Console,3,64 K,Running,3AMLABS\dharanidhars,0:00:00,GDI+ Window
+INBANL-PC0EAQF5,RAVCpl64.exe,11028,Console,3,68 K,Running,3AMLABS\dharanidhars,0:00:00,Realtek HD Audio CPL for Vista
+INBANL-PC0EAQF5,RAVBg64.exe,10508,Console,3,72 K,Running,3AMLABS\dharanidhars,0:00:00,GDI+ Window
+INBANL-PC0EAQF5,ApplicationFrameHost.exe,11204,Console,3,"34,764 K",Running,3AMLABS\dharanidhars,0:00:07,Slack and 14 more pages ?- Microsoft Edge
+INBANL-PC0EAQF5,WinStore.App.exe,6096,Console,3,"62,720 K",Running,3AMLABS\dharanidhars,0:00:00,Store
+INBANL-PC0EAQF5,Calculator.exe,4384,Console,3,"29,968 K",Running,3AMLABS\dharanidhars,0:00:00,Calculator
+INBANL-PC0EAQF5,Microsoft.Photos.exe,10236,Console,3,"26,812 K",Running,3AMLABS\dharanidhars,0:00:03,Photos
+INBANL-PC0EAQF5,dllhost.exe,6980,Console,3,"10,588 K",Running,3AMLABS\dharanidhars,0:00:00,OleMainThreadWndName
+INBANL-PC0EAQF5,OUTLOOK.EXE,2652,Console,3,"162,360 K",Running,3AMLABS\dharanidhars,0:07:55,Inbox - Dharanidharan.SS@logmein.com - Outlook
+INBANL-PC0EAQF5,WINWORD.EXE,5380,Console,3,"85,832 K",Running,3AMLABS\dharanidhars,0:01:11,Phishing Investigation - Word
+INBANL-PC0EAQF5,smartscreen.exe,9668,Console,3,"30,372 K",Unknown,3AMLABS\dharanidhars,0:00:03,N/A
+INBANL-PC0EAQF5,cmd.exe,1028,Console,3,"2,524 K",Running,3AMLABS\dharanidhars,0:00:00,Command Prompt - ping  4.2.2.2 -t
+INBANL-PC0EAQF5,conhost.exe,10472,Console,3,"10,688 K",Running,3AMLABS\dharanidhars,0:00:40,CicMarshalWnd
+INBANL-PC0EAQF5,PING.EXE,1916,Console,3,"3,296 K",Unknown,3AMLABS\dharanidhars,0:00:28,N/A
+INBANL-PC0EAQF5,SystemSettings.exe,4504,Console,3,"21,644 K",Running,3AMLABS\dharanidhars,0:00:00,Settings
+INBANL-PC0EAQF5,taskhostw.exe,13120,Console,3,"15,976 K",Running,3AMLABS\dharanidhars,0:00:00,Task Host Window
+INBANL-PC0EAQF5,SearchUI.exe,6760,Console,3,"28,412 K",Running,3AMLABS\dharanidhars,0:00:01,Cortana
+INBANL-PC0EAQF5,MicrosoftEdge.exe,12140,Console,3,"75,336 K",Running,3AMLABS\dharanidhars,0:00:12,N/A
+INBANL-PC0EAQF5,browser_broker.exe,8316,Console,3,"17,412 K",Running,3AMLABS\dharanidhars,0:00:00,OLEChannelWnd
+INBANL-PC0EAQF5,MicrosoftEdgeCP.exe,5156,Console,3,"63,284 K",Running,3AMLABS\dharanidhars,0:00:07,N/A
+INBANL-PC0EAQF5,MicrosoftEdgeCP.exe,8132,Console,3,"50,512 K",Running,3AMLABS\dharanidhars,0:00:02,N/A
+INBANL-PC0EAQF5,MicrosoftEdgeCP.exe,4120,Console,3,"48,312 K",Running,3AMLABS\dharanidhars,0:00:01,N/A
+INBANL-PC0EAQF5,MicrosoftEdgeCP.exe,4660,Console,3,"74,880 K",Running,3AMLABS\dharanidhars,0:00:03,N/A
+INBANL-PC0EAQF5,chrome.exe,11496,Console,3,"113,584 K",Running,3AMLABS\dharanidhars,0:00:45,Untitled Diagram.xml - draw.io - Google Chrome
+INBANL-PC0EAQF5,chrome.exe,12184,Console,3,"7,836 K",Running,3AMLABS\dharanidhars,0:00:00,N/A
+INBANL-PC0EAQF5,chrome.exe,8396,Console,3,"8,276 K",Running,3AMLABS\dharanidhars,0:00:00,N/A
+INBANL-PC0EAQF5,chrome.exe,4612,Console,3,"84,360 K",Running,3AMLABS\dharanidhars,0:00:17,N/A
+INBANL-PC0EAQF5,chrome.exe,12940,Console,3,"45,496 K",Unknown,3AMLABS\dharanidhars,0:00:03,N/A
+INBANL-PC0EAQF5,chrome.exe,2264,Console,3,"42,132 K",Unknown,3AMLABS\dharanidhars,0:00:02,N/A
+INBANL-PC0EAQF5,chrome.exe,12428,Console,3,"105,384 K",Unknown,3AMLABS\dharanidhars,0:00:05,N/A
+INBANL-PC0EAQF5,chrome.exe,10292,Console,3,"80,780 K",Unknown,3AMLABS\dharanidhars,0:00:13,N/A
+INBANL-PC0EAQF5,chrome.exe,9968,Console,3,"34,504 K",Unknown,3AMLABS\dharanidhars,0:00:01,N/A
+INBANL-PC0EAQF5,chrome.exe,8728,Console,3,"63,240 K",Unknown,3AMLABS\dharanidhars,0:00:03,N/A
+INBANL-PC0EAQF5,chrome.exe,9064,Console,3,"25,080 K",Unknown,3AMLABS\dharanidhars,0:00:00,N/A
+INBANL-PC0EAQF5,chrome.exe,10892,Console,3,"33,940 K",Unknown,3AMLABS\dharanidhars,0:00:01,N/A
+INBANL-PC0EAQF5,chrome.exe,11804,Console,3,"167,740 K",Unknown,3AMLABS\dharanidhars,0:00:32,N/A
+INBANL-PC0EAQF5,LPlatSvc.exe,12996,Console,3,"7,084 K",Running,3AMLABS\dharanidhars,0:00:00,LPlatSvc
+INBANL-PC0EAQF5,svchost.exe,11284,Services,0,"7,900 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,svchost.exe,1476,Services,0,"12,320 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,MicrosoftEdgeCP.exe,9196,Console,3,"80,540 K",Running,3AMLABS\dharanidhars,0:00:01,N/A
+INBANL-PC0EAQF5,MicrosoftEdgeCP.exe,8620,Console,3,"42,664 K",Running,3AMLABS\dharanidhars,0:00:00,N/A
+INBANL-PC0EAQF5,SearchProtocolHost.exe,6556,Console,3,"7,244 K",Unknown,3AMLABS\dharanidhars,0:00:00,N/A
+INBANL-PC0EAQF5,SearchFilterHost.exe,11680,Services,0,"7,336 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,SearchProtocolHost.exe,8556,Services,0,"11,860 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,cmd.exe,9764,Console,3,"3,188 K",Running,3AMLABS\dharanidhars,0:00:00,C:\WINDOWS\system32\cmd.exe
+INBANL-PC0EAQF5,conhost.exe,9452,Console,3,"11,636 K",Running,3AMLABS\dharanidhars,0:00:00,CicMarshalWnd
+INBANL-PC0EAQF5,TrustedInstaller.exe,920,Services,0,"6,712 K",Unknown,N/A,0:00:00,N/A
+INBANL-PC0EAQF5,TiWorker.exe,5680,Services,0,"10,736 K",Unknown,N/A,0:00:02,N/A
+INBANL-PC0EAQF5,tasklist.exe,8176,Console,3,"9,556 K",Unknown,3AMLABS\dharanidhars,0:00:00,N/A

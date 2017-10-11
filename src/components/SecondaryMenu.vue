@@ -19,7 +19,7 @@
       return {
         'items': [
           {title: 'Summary', to: {name: 'overview'}, icon: 'accessibility'},
-          {title: 'Browser Artifacts', to: {name: 'wip'}, icon: 'build'},
+          {title: 'Browser Artifacts', to: {name: 'ie'}, icon: 'build'},
           {title: 'Persistence', to: {name: 'wip'}, icon: "history"},
           {title: 'Evidence of Execution', to: {name: 'wip'}, icon: 'accessibility'},
           {title: 'Lateral Movement', to: {name: 'wip'}, icon: 'accessibility'},

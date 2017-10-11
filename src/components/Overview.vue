@@ -1,11 +1,10 @@
 <template>
   <div>
-    <List :url="`/machine/${machine}/summary`" />
+    <List v-bind:url="url" />
   </div>
 </template>
 
 <script>
-  import { mapGetters, mapActions } from 'vuex'
   import List from './List'
 
   const Overview = {
@@ -13,6 +12,9 @@
       'machine'
     ],
     computed: {
+      url(){
+        return `/machine/${this.machine}/overview`
+      }
     },
 
     methods: {

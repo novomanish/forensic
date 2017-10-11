@@ -21,14 +21,27 @@ const Api = {
     {
       let match = (new UrlPattern("/machine/:machine/:sub")).match(url)
       if(match) {
+        const machineFilter = o => {return o['Hostname'] === match.machine || o['Host Name'] === match.machine}
+
         switch(match.sub){
-          case 'summary': return clone(require('../data/summary.json'))
-          case 'processlist': return clone(require('../data/processlist.json'))
-          case 'netstat': return clone(require('../data/netstat.json'))
-          case 'services': return clone(require('../data/services.json'))
-          case 'softwarelist': return clone(require('../data/softwarelist.json'))
-          case 'summary': return clone(require('../data/summary.json'))
-          case 'summary': return clone(require('../data/summary.json'))
+          case 'overview': return clone(require('../data/overview.json').filter(machineFilter))
+          case 'processlist': return clone(require('../data/processlist.json').filter(machineFilter))
+          case 'netstat': return clone(require('../data/netstat.json').filter(machineFilter))
+          case 'services': return clone(require('../data/services.json').filter(machineFilter))
+          case 'softwarelist': return clone(require('../data/softwarelist.json').filter(machineFilter))
+        }
+      }
+    }
+
+    {
+      let match = (new UrlPattern("/machine/:machine/:browser")).match(url)
+      if(match) {
+        const machineFilter = o => {return o['Hostname'] === match.machine || o['Host Name'] === match.machine}
+
+        switch(match.browser){
+          case 'ie': return clone(require('../data/ie.json').filter(machineFilter))
+          case 'chrome': return clone(require('../data/chrome.json').filter(machineFilter))
+//          case 'firefox': return clone(require('../data/firefox.json').filter(machineFilter))
         }
       }
     }
