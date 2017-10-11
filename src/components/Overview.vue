@@ -1,9 +1,21 @@
 <template>
   <div>
-    <v-data-table
+    <v-card>
+      <v-card-title>
+        <v-spacer></v-spacer>
+        <v-text-field
+          append-icon="search"
+          label="Search"
+          single-line
+          hide-details
+          v-model="search"
+        ></v-text-field>
+      </v-card-title>
+      <v-data-table
       light
       v-model="selected"
-      v-bind:items="filtered"
+      v-bind:items="items"
+      v-bind:search="search"
       v-bind:pagination.sync="pagination"
       item-key="ProcessId"
       class="elevation-1"
@@ -33,10 +45,12 @@
           <td>{{ props.item['User Name']}}</td>
           <td>{{ props.item['CPU Time']}}</td>
           <td>{{ props.item['Window Title']}}</td>
+          <td>{{ props.item['CPU Time']}}</td>
           <td>{{ props.item['Hostname']}}</td>
         </tr>
       </template>
     </v-data-table>
+    </v-card>
   </div>
 </template>
 
@@ -61,14 +75,12 @@
       }
     },
     computed: {
-      filtered(){
-        return (this.pid) ? this.items.filter(i => i['ProcessId'] == this.pid) : this.items;
-      }
     },
     data() {
       var items = Api.get(`/machine/${this.machine}/overview`)
       return {
         items,
+        search: '',
         pagination: {
           sortBy: 'Host Name'
         },

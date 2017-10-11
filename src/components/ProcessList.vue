@@ -1,9 +1,21 @@
 <template>
   <div>
+    <v-card>
+      <v-card-title>
+        <v-spacer></v-spacer>
+        <v-text-field
+          append-icon="search"
+          label="Search"
+          single-line
+          hide-details
+          v-model="search"
+        ></v-text-field>
+      </v-card-title>
     <v-data-table
       light
       v-model="selected"
       v-bind:items="filtered"
+      v-bind:search="search"
       v-bind:pagination.sync="pagination"
       item-key="ProcessId"
       class="elevation-1"
@@ -30,6 +42,7 @@
         </tr>
       </template>
     </v-data-table>
+    </v-card>
   </div>
 </template>
 
@@ -62,8 +75,9 @@
       var items = Api.get(`/machine/${this.machine}/processlist`)
       return {
         items,
+        search: '',
         pagination: {
-          sortBy: 'Host Name'
+          sortBy: 'Caption'
         },
         selected: [
         ]
