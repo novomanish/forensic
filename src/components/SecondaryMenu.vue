@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ul>
+    <ul class="menu">
       <router-link v-for="(menu, label) in item"
                    :key="menu.name"
                    tag="li"
@@ -16,11 +16,12 @@
     data() {
       return {
         'item': {
-          "Summary": {name:'summary'},
-          "Process List": {name:'processlist'},
-          "Network Connections": {name:'netstat'},
-          "Services": {name:'services'},
-          "Software List": {name:'softwarelist'}
+          "Summary": {name:'overview'},
+          "Browser Artifacts": {name:'wip'},
+          "Persistence": {name:'wip'},
+          "Evidence of Execution": {name:'wip'},
+          "Lateral Movement": {name:'wip'},
+          "Gather Evidence": {name:'wip'},
         }
       }
     }
@@ -30,5 +31,14 @@
 </script>
 
 <style scoped>
+  .menu li {
+    background-size:25px;
+    padding-left:50px;
+    background-position:10px
+  }
+
+  li.router-link-active, li:hover {
+        background-color: #e6e6e6;
+  }
 
 </style>

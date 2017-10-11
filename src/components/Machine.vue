@@ -15,7 +15,6 @@
     </table>
 
     <hr style="border-top:0; border-bottom:1px solid #ddd"/>
-
     <router-view></router-view>
   </div>
 </template>
@@ -62,4 +61,7 @@
   th, td {
     border: 1px solid #ddd;
   }
+
+
+
 </style>

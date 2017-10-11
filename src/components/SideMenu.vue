@@ -38,8 +38,5 @@
     border-bottom: 1px solid #e6e6e6;
     cursor: pointer;
   }
-  >>> li.router-link-exact-active, li:hover {
-    background-color: #e6e6e6;
-  }
 
 </style>

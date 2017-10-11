@@ -42,6 +42,27 @@
 <!-- Global CSS -->
 <style>
   @import url(http://fonts.googleapis.com/icon?family=Material+Icons);
+
+  ul.tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E1E1E1;
+  }
+
+  ul.tabs li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  ul.tabs li.router-link-exact-active, ul.tabs li:hover {
+    background-color: #B3B3B3;
+  }
+
 </style>
 
 <!-- Scoped component css -->
@@ -50,6 +71,7 @@
 
   .side {
     min-width: 230px;
+    max-width: 230px;
     min-height: 600px;
     border-right: 1px solid #e6e6e6;
   }

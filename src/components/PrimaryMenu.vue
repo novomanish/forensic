@@ -41,4 +41,11 @@
   padding-left:50px;
   background-position:10px
 }
+li.router-link-active {
+      background-color: initial;
+}
+li.router-link-exact-active, li:hover {
+      background-color: #e6e6e6;
+    }
+
 </style>
