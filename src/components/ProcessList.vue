@@ -1,29 +1,87 @@
 <template>
   <div>
-    <List :url="`/machine/${machine}/processlist`" />
+    <v-data-table
+      light
+      v-model="selected"
+      v-bind:items="filtered"
+      v-bind:pagination.sync="pagination"
+      item-key="ProcessId"
+      class="elevation-1"
+      :rows-per-page-items="[50, {text: 'All', value:-1}]"
+    >
+      <template slot="headers" scope="props">
+        <tr>
+          <th>Process Id</th>
+          <th>Parent Process Id</th>
+          <th>Executable Path</th>
+          <th>Creation Date</th>
+          <th>Caption</th>
+          <th>Host</th>
+        </tr>
+      </template>
+      <template slot="items" scope="props">
+        <tr :active="props.selected">
+          <td>{{ props.item['ProcessId']}}</td>
+          <td>{{ props.item['ParentProcessId']}}</td>
+          <td>{{ props.item['ExecutablePath']}}</td>
+          <td>{{ getDate(props.item['CreationDate'])}}</td>
+          <td>{{ props.item['Caption']}}</td>
+          <td>{{ props.item['Hostname']}}</td>
+        </tr>
+      </template>
+    </v-data-table>
   </div>
 </template>
 
 <script>
-  import { mapGetters, mapActions } from 'vuex'
-  import List from './List'
+  import Api from './api'
 
-  const Summary = {
+  const List = {
     props: [
-      'machine'
+      'machine',
+      'ProcessId'
     ],
     computed: {
+      headers() {
+        var columns = Object.keys(this.items[0]).map(c => {
+          return {
+            "text": c,
+            "value":c,
+            "align": "left"
+          }
+        })
+        return columns
+      }
+    },
+    computed: {
+      filtered(){
+        return (this.ProcessId) ? this.items.filter(i => i['ProcessId'] == this.ProcessId) : this.items;
+      }
+    },
+    data() {
+      var items = Api.get(`/machine/${this.machine}/processlist`)
+      return {
+        items,
+        pagination: {
+          sortBy: 'Host Name'
+        },
+        selected: [
+        ]
+      }
     },
 
     methods: {
+      getDate(d){
+        return d.substr(0, 8);
+      }
     },
     components: {
-      List
     }
   }
 
-  export default Summary
+  export default List
 </script>
 
 <style scoped>
+
 </style>

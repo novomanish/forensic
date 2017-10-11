@@ -47,7 +47,9 @@ export default [
       {path: 'summary', component: Summary, props:true, children: [
         {path: '', redirect: 'overview'},
         {name: 'overview', path: 'overview', component: Overview, props:true},
-        {name: 'processlist', path: 'processlist', component: ProcessList, props:true},
+        {name: 'processlist', path: 'processlist', component: ProcessList,
+          props: route => ({ machine: route.params.machine, ProcessId: route.query.ProcessId})
+        },
         {name: 'netstat', path: 'netstat', component: Netstat, props:true},
         {name: 'services', path: 'services', component: Services, props:true},
         {name: 'softwarelist', path: 'softwarelist', component: SoftwareList, props:true},

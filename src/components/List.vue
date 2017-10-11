@@ -20,7 +20,6 @@
 
 <script>
   import Api from './api'
-  import DataTable from 'vue-materialize-datatable'
 
   const List = {
     props: [
@@ -52,7 +51,6 @@
     methods: {
     },
     components: {
-      "datatable": DataTable
     }
   }
 
@@ -60,8 +58,5 @@
 </script>
 
 <style scoped>
-  >>> .actions {
-    margin-left:initial !important;
-  }
 
 </style>
