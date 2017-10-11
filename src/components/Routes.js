@@ -11,7 +11,7 @@ import ProcessList from './ProcessList.vue'
 import SoftwareList from './SoftwareList.vue'
 
 export default [
-  {path: '*', redirect: 'machine'},
+  {path: '', redirect: 'machine'},
   {
     name:'machine',
     path: '/machine',
@@ -36,7 +36,8 @@ export default [
     children: [
       {path: '', redirect:'summary'},
       {path: 'summary', component: Summary, props:true, children: [
-        {name: 'overview', path: '', component: Overview},
+        {path: '', redirect: 'overview'},
+        {name: 'overview', path: 'overview', component: Overview},
         {name: 'processlist', path: 'processlist', component: ProcessList},
         {name: 'netstat', path: 'netstat', component: Netstat},
         {name: 'services', path: 'services', component: Services},

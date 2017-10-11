@@ -1,9 +1,25 @@
 <template>
   <div>
-    <router-link :to="{name:'machine'}" tag="div" class="demo-title">
-      <img src="/logo.jpg" width="130px"/><br />
-      Forensic Demo
-    </router-link>
+    <v-card>
+      <v-card-media src="/logo.jpg" height="200px">
+      </v-card-media>
+      <v-card-title primary-title>
+        <h3 class="headline mb-0">Forensic Demo</h3>
+      </v-card-title>
+    </v-card>
+
+    <v-list>
+      <v-list-tile>
+        <v-list-tile-title class="title">
+          Home
+        </v-list-tile-title>
+        <v-spacer></v-spacer>
+        <v-btn icon :to="{name: 'machine'}">
+          <v-icon>home</v-icon>
+        </v-btn>
+      </v-list-tile>
+    </v-list>
+    <v-divider></v-divider>
     <router-view name="menu"></router-view>
   </div>
 </template>
@@ -17,15 +33,6 @@
 </script>
 
 <style scoped>
-  .demo-title {
-    height: 180px;
-    border-bottom: 2px solid #e6e6e6;
-    text-align: center;
-    padding-top: 20px;
-    font-weight: bold;
-    font-size: 1.5em;
-  }
-
   >>> ul {
     width: 100%;
     list-style-type: none;

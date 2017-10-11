@@ -1,13 +1,15 @@
 <template>
   <div>
-    <ul class="menu">
-      <router-link v-for="(menu, label) in item"
-                   :key="menu.name"
-                   tag="li"
-                   :to="{name:menu.name}">
-        {{ label }}
-      </router-link>
-    </ul>
+    <v-list dense class="pt-0">
+      <v-list-tile v-for="item in items" :key="item.title" :to="item.to">
+        <v-list-tile-action>
+          <v-icon>{{ item.icon }}</v-icon>
+        </v-list-tile-action>
+        <v-list-tile-content>
+          <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+        </v-list-tile-content>
+      </v-list-tile>
+    </v-list>
   </div>
 </template>
 
@@ -15,14 +17,14 @@
   const SecondaryMenu = {
     data() {
       return {
-        'item': {
-          "Summary": {name:'overview'},
-          "Browser Artifacts": {name:'wip'},
-          "Persistence": {name:'wip'},
-          "Evidence of Execution": {name:'wip'},
-          "Lateral Movement": {name:'wip'},
-          "Gather Evidence": {name:'wip'},
-        }
+        'items': [
+          {title: 'Summary', to: {name: 'overview'}, icon: 'accessibility'},
+          {title: 'Browser Artifacts', to: {name: 'wip'}, icon: 'build'},
+          {title: 'Persistence', to: {name: 'wip'}, icon: "history"},
+          {title: 'Evidence of Execution', to: {name: 'wip'}, icon: 'accessibility'},
+          {title: 'Lateral Movement', to: {name: 'wip'}, icon: 'accessibility'},
+          {title: 'Gather Evidence', to: {name: 'wip'}, icon: 'accessibility'}
+        ]
       }
     }
   }

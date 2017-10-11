@@ -1,15 +1,24 @@
 <template>
   <div>
-    <datatable
-      :rows="list"
-      :columns="columns"
-      :perPage="50"
-    ></datatable>
+    <v-data-table
+      light
+      v-model="selected"
+      v-bind:headers="headers"
+      v-bind:items="items"
+      v-bind:pagination.sync="pagination"
+      class="elevation-1"
+      :rows-per-page-items="[50, {text: 'All', value:-1}]"
+    >
+      <template slot="items" scope="props">
+        <tr>
+          <td v-for="head in headers" v-html="props.item[head.value]"></td>
+        </tr>
+      </template>
+    </v-data-table>
   </div>
 </template>
 
 <script>
-  import { mapGetters, mapActions } from 'vuex'
   import Api from './api'
   import DataTable from 'vue-materialize-datatable'
 
@@ -17,26 +26,30 @@
     props: [
       'url'
     ],
+    computed: {
+      headers() {
+        var columns = Object.keys(this.items[0]).map(c => {
+          return {
+            "text": c,
+            "value":c,
+            "align": "left"
+          }
+        })
+        return columns
+      }
+    },
     data() {
-      var list = Api.get(this.url)
-      var columns = Object.keys(list[0]).map(c => {
-        return {
-          "label": c,
-          "field":c
-        }
-      })
-
+      var items = Api.get(this.url)
       return {
-        list,
-        columns,
-        options:{}
+        items,
+        pagination: {
+          sortBy: 'Host Name'
+        },
+        selected: []
       }
     },
 
     methods: {
-      ...mapActions([
-        'go'
-      ])
     },
     components: {
       "datatable": DataTable

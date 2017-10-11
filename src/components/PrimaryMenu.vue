@@ -1,16 +1,16 @@
 <template>
   <div>
-    <ul>
-      <router-link v-for="(menu, label) in items"
-                   class="menu"
-                   :key="menu.name"
-                   tag="li"
-                   :to="{name:menu.name}"
-                   :style="`background-image: url(${menu.icon}) ;`"
-      >
-        {{ label }}
-      </router-link>
-    </ul>
+    <v-list dense class="pt-0">
+      <v-list-tile v-for="item in items" :key="item.title" :to="item.to">
+        <v-list-tile-action>
+          <v-icon>{{ item.icon }}</v-icon>
+        </v-list-tile-action>
+        <v-list-tile-content>
+          <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+        </v-list-tile-content>
+      </v-list-tile>
+    </v-list>
+
   </div>
 </template>
 
@@ -18,16 +18,18 @@
   const PrimaryMenu = {
     data() {
       return {
-        'items': {
-          "Machines": {
-            name:"machine",
-            icon: "/system.png"
+        'items': [
+          {
+            title:"Machines",
+            to: {name: 'machine'},
+            icon: "dashboard"
           },
-          "Evidence Lookup": {
-            name:"machine1",
-            icon: "/system1.png"
+          {
+            title:"Evidence Lookup",
+            to: {name: 'wip'},
+            icon: "question_answer"
           }
-        }
+        ]
       }
     }
   }
@@ -36,16 +38,5 @@
 </script>
 
 <style scoped>
-.menu {
-  background-size:25px;
-  padding-left:50px;
-  background-position:10px
-}
-li.router-link-active {
-      background-color: initial;
-}
-li.router-link-exact-active, li:hover {
-      background-color: #e6e6e6;
-    }
 
 </style>

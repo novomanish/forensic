@@ -1,22 +1,15 @@
 <template>
   <div>
-    <ul class="tabs">
-      <router-link :to="{name: 'overview'}" tag="li" class="left">
-        Overview
-      </router-link>
-      <router-link :to="{name: 'processlist'}" tag="li">
-        Process List
-      </router-link>
-      <router-link :to="{name: 'netstat'}" tag="li">
-        Network Connections
-      </router-link>
-      <router-link :to="{name: 'services'}" tag="li">
-        Services
-      </router-link>
-      <router-link :to="{name: 'softwarelist'}" tag="li">
-        Software List
-      </router-link>
-    </ul>
+    <v-toolbar>
+      <v-toolbar-side-icon class="hidden-md-and-up"></v-toolbar-side-icon>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn flat :to="{name: 'overview'}">Overview</v-btn>
+        <v-btn flat :to="{name: 'processlist'}">Process List</v-btn>
+        <v-btn flat :to="{name: 'netstat'}">Network Connections</v-btn>
+        <v-btn flat :to="{name: 'services'}">Services</v-btn>
+        <v-btn flat :to="{name: 'softwarelist'}">Software List</v-btn>
+      </v-toolbar-items>
+    </v-toolbar>
 
     <router-view></router-view>
   </div>

@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <table width="100%">
-      <tbody valign="top">
-      <tr>
-        <td class="side">
-          <SideMenu></SideMenu>
-        </td>
-        <td class="">
-          <router-view></router-view>
-        </td>
-      </tr>
-      </tbody>
-    </table>
+    <v-app>
+      <v-navigation-drawer app>
+        <SideMenu></SideMenu>
+      </v-navigation-drawer>
+      <v-toolbar app>
+        <v-toolbar-title>Innovate 2017 - Forenic MVP</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-btn icon :to="{name: 'machine'}">
+          <v-icon>home</v-icon>
+        </v-btn>
+      </v-toolbar>
+      <main>
+        <v-content>
+          <v-container fluid>
+           <router-view></router-view>
+          </v-container>
+        </v-content>
+      </main>
+      <v-footer app></v-footer>
+    </v-app>
   </div>
 </template>
 
@@ -21,12 +29,15 @@
   import Machine from './Machine.vue'
   import VueRouter from 'vue-router'
   import('vuetify/dist/vuetify.min.css')
+  import 'vuetify/src/stylus/main.styl'
+  import VApp from "vuetify/es5/components/VApp/VApp";
 
 
   export default {
     name: 'app',
 
     components: {
+      VApp,
       SideMenu,
       MachinesList,
       Machine,
@@ -68,11 +79,4 @@
 <!-- Scoped component css -->
 <!-- It only affect current component -->
 <style scoped>
-
-  .side {
-    min-width: 230px;
-    max-width: 230px;
-    min-height: 600px;
-    border-right: 1px solid #e6e6e6;
-  }
 </style>
