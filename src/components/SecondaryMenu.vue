@@ -19,11 +19,11 @@
       return {
         'items': [
           {title: 'Summary', to: {name: 'overview'}, icon: 'accessibility'},
-          {title: 'Browser Artifacts', to: {name: 'ie'}, icon: 'build'},
+          {title: 'Browser Artifacts', to: {name: 'ie'}, icon: 'public'},
           {title: 'Persistence', to: {name: 'wip'}, icon: "history"},
-          {title: 'Evidence of Execution', to: {name: 'wip'}, icon: 'accessibility'},
-          {title: 'Lateral Movement', to: {name: 'wip'}, icon: 'accessibility'},
-          {title: 'Gather Evidence', to: {name: 'wip'}, icon: 'accessibility'}
+          {title: 'Evidence of Execution', to: {name: 'wip'}, icon: 'group'},
+          {title: 'Lateral Movement', to: {name: 'wip'}, icon: 'beach_access'},
+          {title: 'Gather Evidence', to: {name: 'wip'}, icon: 'free_breakfast'}
         ]
       }
     }
