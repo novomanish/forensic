@@ -48,9 +48,11 @@ export default [
         {path: '', redirect: 'overview'},
         {name: 'overview', path: 'overview', component: Overview, props:true},
         {name: 'processlist', path: 'processlist', component: ProcessList,
-          props: route => ({ machine: route.params.machine, ProcessId: route.query.ProcessId})
+          props: route => ({ machine: route.params.machine, ProcessId: route.query.ProcessId, Threat: route.query.Threat})
         },
-        {name: 'netstat', path: 'netstat', component: Netstat, props:true},
+        {name: 'netstat', path: 'netstat', component: Netstat,
+          props: route => ({ machine: route.params.machine, Threat: route.query.Threat})
+        },
         {name: 'services', path: 'services', component: Services, props:true},
         {name: 'softwarelist', path: 'softwarelist', component: SoftwareList, props:true},
       ]},

@@ -45,8 +45,8 @@ Rules:
                                         ]
   Evedices ip search -> Show machine names > clicking it takes to machine summary
   Browser Artifacts : if no result found then show "Browsing history information unavailable"
-
-
+  Procress list: boolean warning, warning description => filter warning button
+  !IMP :: Machines: threat score -> show links to modules and navigate on click
 Columns:
   Services: Remove Node
   Process List: Remove Node

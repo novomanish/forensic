@@ -1347,7 +1347,24 @@
     "Hostname": "INBANL-PC0EX5K3",
     "ExecutablePath": "C:\\WINDOWS\\system32\\lsass.exe",
     "ParentProcessId": 672,
-    "ProcessId": 824
+    "ProcessId": 824,
+    "Threat": {
+      "value": true,
+      "desc": "Two instances detected for lsass.exe with time difference, possible process hollowing activity"
+    }
+  },
+  {
+    "Node": "INBANL-PC0EX5K3",
+    "Caption": "lsass.exe",
+    "CreationDate": "20170927144213.051084+330",
+    "Hostname": "INBANL-PC0EX5K3",
+    "ExecutablePath": "C:\\WINDOWS\\system32\\lsass.exe",
+    "ParentProcessId": 672,
+    "ProcessId": 824,
+    "Threat": {
+      "value": true,
+      "desc": "Two instances detected for lsass.exe with time difference, possible process hollowing activity"
+    }
   },
   {
     "Node": "INBANL-PC0EX5K3",
@@ -1477,12 +1494,16 @@
   },
   {
     "Node": "INBANL-PC0EX5K3",
-    "Caption": "svchost.exe",
+    "Caption": "scvhost.exe",
     "CreationDate": "20170926144218.684107+330",
     "Hostname": "INBANL-PC0EX5K3",
-    "ExecutablePath": "C:\\WINDOWS\\system32\\svchost.exe",
+    "ExecutablePath": "C:\\WINDOWS\\system32\\scvhost.exe",
     "ParentProcessId": 816,
-    "ProcessId": 2112
+    "ProcessId": 2112,
+    "Threat": {
+      "value": true,
+      "desc": "Suspicious process scvhost, looks similar to svchost"
+    }
   },
   {
     "Node": "INBANL-PC0EX5K3",

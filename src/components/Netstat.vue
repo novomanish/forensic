@@ -1,9 +1,25 @@
 <template>
   <div>
+    <v-card>
+      <v-card-title>
+        <v-btn small :to="{name: 'netstat', query:!Threat ? {Threat:true} : ''}">
+          <v-icon v-if="Threat">close</v-icon>
+          Filter Suspicious
+        </v-btn>
+        <v-spacer></v-spacer>
+        <v-text-field
+          append-icon="search"
+          label="Search"
+          single-line
+          hide-details
+          v-model="search"
+        ></v-text-field>
+      </v-card-title>
     <v-data-table
       light
       v-model="selected"
-      v-bind:items="items"
+      v-bind:items="filtered"
+      v-bind:search="search"
       v-bind:pagination.sync="pagination"
       item-key="Process ID"
       class="elevation-1"
@@ -21,7 +37,13 @@
       </template>
       <template slot="items" scope="props">
         <tr :active="props.selected">
-          <td><router-link :to="{name:'processlist', query:{ProcessId: props.item['Process ID']}}"> {{ props.item['Process ID']}}</router-link></td>
+          <td>
+            <v-tooltip v-if="props.item['Threat']" right>
+              <v-icon color="orange" slot="activator">warning</v-icon>
+              <span v-html="props.item['Threat']['desc']"></span>
+            </v-tooltip>
+
+            <router-link :to="{name:'processlist', query:{ProcessId: props.item['Process ID']}}"> {{ props.item['Process ID']}}</router-link></td>
           <td>{{ props.item['Protocol']}}</td>
           <td>{{ props.item['Local Address']}}</td>
           <td>
@@ -45,6 +67,7 @@
         </tr>
       </template>
     </v-data-table>
+    </v-card>
   </div>
 </template>
 
@@ -54,7 +77,7 @@
   const List = {
     props: [
       'machine',
-      'ProcessId'
+      'Threat'
     ],
     computed: {
       headers() {
@@ -66,12 +89,20 @@
           }
         })
         return columns
+      },
+      filtered(){
+        const filtered = (this.Threat) ? this.items.filter(i => !!i['Threat']):this.items
+        return filtered;
+      },
+      threatCount() {
+        return this.items.filter(i => !!i['Threat']).length;
       }
     },
     data() {
       var items = Api.get(`/machine/${this.machine}/netstat`)
       return {
         items,
+        search: '',
         pagination: {
         },
         selected: [

@@ -1102,5 +1102,17 @@
     "Foreign Address": "[::]:0",
     "State": "LISTENING",
     "Process ID": 4460
+  },
+  {
+    "Hostname": "INBANL-PC0EX5K3",
+    "Protocol": "TCP",
+    "Local Address": "192.168.0.3:11381",
+    "Foreign Address": "52.58.188.104:443",
+    "State": "ESTABLISHED",
+    "Process ID": 2112,
+    "Threat": {
+      "value": true,
+      "desc": "Ip with bad reputation - FireHOL IP Black list"
+    }
   }
 ]
