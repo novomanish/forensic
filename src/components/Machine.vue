@@ -2,19 +2,29 @@
   <div>
     <table border="0" width="100%">
     <tr>
-      <td width="200px" style="padding: 20px" align="center">
+      <td width="200px" style="padding: 20px" align="center" valign="top">
         <img src="/system.png"/>
       </td>
-      <td valign="top" style="padding: 10px">
+      <td v-if="!details" valign="top" style="padding: 10px">
         <span class="field bold" style="">{{data['Host Name']}}</span>
         <br/>
         <br/>
-        <span class="field" >{{data['OS Version']}}</span>
+        <span class="field">{{data['OS Version']}}</span>
+
+        <br/>
+        <br/>
+        <v-btn :to="{path: '', query: {details:true}}">Show Details</v-btn>
+      </td>
+      <td v-else>
+        <v-btn :to="{path: '', query: {}}">Hide Details</v-btn>
+        <br/>
+        <br/>
+        <div class="field" v-for="(value, label) in data">
+          <div>{{label}} - {{value}}</div>
+        </div>
       </td>
     </tr>
     </table>
-
-    <template v-if="details">Showing details</template>
 
     <hr style="border-top:0; border-bottom:1px solid #ddd"/>
     <router-view></router-view>

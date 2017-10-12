@@ -49,7 +49,7 @@ export default [
       menu: SecondaryMenu
     },
     props: {
-      default:true
+      default:route => ({ machine: route.params.machine, details: route.query.details})
     },
     children: [
       {path: '', redirect:'summary'},
