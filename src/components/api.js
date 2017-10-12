@@ -52,10 +52,24 @@ const Api = {
 
         switch(match.type){
           case 'startup': return clone(require('../data/registry_startup.json').filter(machineFilter))
-//          case 'chrome': return clone(require('../data/chrome.json').filter(machineFilter))
+          case 'entry': return clone(require('../data/registry_entry.json').filter(machineFilter))
         }
       }
     }
+
+    {
+      let match = (new UrlPattern("/machine/:machine/evidence/:type")).match(url)
+      if(match) {
+        const machineFilter = o => {return o['Hostname'] === match.machine || o['Host Name'] === match.machine || o['Hostname Name'] === match.machine}
+
+        switch(match.type){
+          case 'prefetch': return clone(require('../data/prefetch.json').filter(machineFilter))
+          case 'shimcache': return clone(require('../data/shimcache.json').filter(machineFilter))
+          case 'jumplist': return clone(require('../data/jumplist.json').filter(machineFilter))
+        }
+      }
+    }
+
   }
 
 }

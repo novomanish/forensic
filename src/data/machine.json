@@ -77,7 +77,7 @@
     "Hyper-V Requirements": "VM Monitor Mode Extensions: Yes,Virtualization Enabled In Firmware: No,Second Level Address Translation: Yes,Data Execution Prevention Available: Yes",
 
     "IP Address": "10.0.0.2",
-    "Threat Score": 0.1,
+    "Threat Score": 0,
     "User Name": "Joseph"
   }
 ]

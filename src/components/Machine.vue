@@ -14,6 +14,8 @@
     </tr>
     </table>
 
+    <template v-if="details">Showing details</template>
+
     <hr style="border-top:0; border-bottom:1px solid #ddd"/>
     <router-view></router-view>
   </div>
@@ -24,7 +26,8 @@
 
   const Machine = {
     props: [
-      'machine'
+      'machine',
+      'details'
     ],
     data() {
       return {

@@ -3,12 +3,14 @@ import PrimaryMenu from './PrimaryMenu.vue'
 
 import MachinesList from './MachinesList.vue'
 import Machine from './Machine.vue'
+
 import Summary from './Summary.vue'
 import Overview from './Overview.vue'
 import Netstat from './Netstat.vue'
 import Services from './Services.vue'
 import ProcessList from './ProcessList.vue'
 import SoftwareList from './SoftwareList.vue'
+import WIP from './WIP.vue'
 
 import Browser from './Browser.vue'
 import Ie from './Ie.vue'
@@ -17,7 +19,14 @@ import Firefox from './Firefox.vue'
 
 import Persistence from './Persistence.vue'
 import RegistryStartup from './RegistryStartup.vue'
+import RegistryEntry from './RegistryEntry.vue'
 
+import Evidence from './Evidence.vue'
+import Prefetch from './Prefetch.vue'
+import ShimCache from './ShimCache.vue'
+import JumpList from './JumpList.vue'
+
+import Lateral from './Lateral.vue'
 
 export default [
   {path: '', redirect: 'machine'},
@@ -65,8 +74,20 @@ export default [
       {path: 'persistence', component: Persistence, props:true, children: [
         {path: '', redirect: 'startup'},
         {name: 'startup', path: 'startup', component: RegistryStartup, props:true},
-        /*        {name: 'chrome', path: 'chrome', component: Chrome, props:true},
-        {name: 'firefox', path: 'firefox', component: Firefox, props:true},*/
+        {name: 'entry', path: 'entry', component: RegistryEntry, props:true},
+        {path: 'wip', component: WIP, props:true},
+      ]},
+      {path: 'evidence', component: Evidence, props:true, children: [
+        {path: '', redirect: 'wip'},
+        {name: 'prefetch', path: 'prefetch', component: Prefetch, props:true},
+        {name: 'shimcache', path: 'shimcache', component: ShimCache, props:true},
+        {name: 'jumplist', path: 'jumplist', component: JumpList, props:true},
+        {path: 'wip', component: WIP, props:true},
+      ]},
+      {path: 'lateral', component: Lateral, props:true, children: [
+        {path: '', redirect: 'wip'},
+        {name: 'rdp', path: 'rdp', component: WIP, props:true},
+        {name: 'runmru', path: 'runmru', component: WIP, props:true},
       ]},
     ]
   }

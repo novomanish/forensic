@@ -7,7 +7,7 @@
       v-bind:items="items"
       v-bind:pagination.sync="pagination"
       class="elevation-1"
-      :rows-per-page-items="[50, {text: 'All', value:-1}]"
+      :rows-per-page-items="[10, 50, {text: 'All', value:-1}]"
     >
       <template slot="items" scope="props">
         <tr>

@@ -55,7 +55,8 @@
           {text:"Domain", value: "Domain", align: "left"},
         ],
         pagination: {
-          sortBy: 'Host Name'
+          sortBy: 'Threat Score',
+          descending: true
         },
         selected: []
       }
