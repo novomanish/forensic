@@ -38,28 +38,28 @@ Evidence lookup
 
 
 Rules:
-  Network -> click process id -> Process List (select and scroll to the process list)
-  Network -> click foriegn address -> Menu [
+DONE  Network -> click process id -> Process List (select and scroll to the process list)
+DONE  Network -> click foriegn address -> Menu [
                                         VT Lookup -> (extract ip only (remove port)), new window :: https://www.virustotal.com/#/ip-address/:ip
                                         Whois Lookup -> (extract ip only (remove port)) -> https://www.whois.com/whois/:ip
                                         ]
   Evedices ip search -> Show machine names > clicking it takes to machine summary
-  Browser Artifacts : if no result found then show "Browsing history information unavailable"
-  Procress list: boolean warning, warning description => filter warning button
-  !IMP :: Machines: threat score -> show links to modules and navigate on click
+DONE  Browser Artifacts : if no result found then show "Browsing history information unavailable"
+DONE  Procress list: boolean warning, warning description => filter warning button
+
 Columns:
-  Services: Remove Node
-  Process List: Remove Node
-  Summary: Remove Node
-  Software List: remove Node
-  Process List: Creation Date : first 8 digit
-  Process List: highlight scvhost, column # (Suspicious Warning)
-  Network: column # (Suspicious Warning)
+DONE  Services: Remove Node
+DONE  Process List: Remove Node
+DONE  Summary: Remove Node
+DONE  Software List: remove Node
+DONE  Process List: Creation Date : first 8 digit
+DONE  Process List: highlight scvhost, column # (Suspicious Warning)
+DONE  Network: column # (Suspicious Warning)
 
 
 Features:
   Menu Hover gives tooltip
-  SHow work in progree for upcoming features
+DONE  SHow work in progree for upcoming features
 
 
 
